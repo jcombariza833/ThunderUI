@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B402FDD62B709C9000F85943 /* TUIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402FDD52B709C9000F85943 /* TUIProgressView.swift */; };
 		B424B3092B58AD730052C607 /* TUISegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424B3082B58AD730052C607 /* TUISegment.swift */; };
 		B424B30C2B5C59330052C607 /* KeyboardDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424B30B2B5C59330052C607 /* KeyboardDismisser.swift */; };
 		B44921E62B26B199009A210F /* OBTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44921E52B26B199009A210F /* OBTitle.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B402FDD52B709C9000F85943 /* TUIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIProgressView.swift; sourceTree = "<group>"; };
 		B424B3082B58AD730052C607 /* TUISegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUISegment.swift; sourceTree = "<group>"; };
 		B424B30B2B5C59330052C607 /* KeyboardDismisser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismisser.swift; sourceTree = "<group>"; };
 		B44921E52B26B199009A210F /* OBTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBTitle.swift; sourceTree = "<group>"; };
@@ -102,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B402FDD42B709C7600F85943 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				B402FDD52B709C9000F85943 /* TUIProgressView.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
 		B424B30A2B5C59180052C607 /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +182,7 @@
 		B48123502B214D780090B9F3 /* ThunderUI */ = {
 			isa = PBXGroup;
 			children = (
+				B402FDD42B709C7600F85943 /* ProgressView */,
 				B44F97E42B6EEB0E0046CBF3 /* Utils */,
 				B424B30A2B5C59180052C607 /* Keyboard */,
 				B475DD152B44CDB50076D43A /* Slider */,
@@ -370,6 +381,7 @@
 				B481237E2B2266100090B9F3 /* TUILoginView.swift in Sources */,
 				B44921EC2B26B5F1009A210F /* PasswordTextField.swift in Sources */,
 				B44921F22B2745A3009A210F /* UsernameTextField.swift in Sources */,
+				B402FDD62B709C9000F85943 /* TUIProgressView.swift in Sources */,
 				B424B30C2B5C59330052C607 /* KeyboardDismisser.swift in Sources */,
 				B481236D2B21613D0090B9F3 /* TUILink.swift in Sources */,
 				B48123832B22E1EF0090B9F3 /* TextFieldState.swift in Sources */,
