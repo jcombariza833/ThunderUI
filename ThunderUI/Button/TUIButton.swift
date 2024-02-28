@@ -41,32 +41,31 @@ public struct TUIButtonStyle: ButtonStyle {
   }
 
   public func makeBody(configuration: Self.Configuration) -> some View {
-      configuration.label
-        .font(.system(size: 14))
-        .textCase(.uppercase)
-        .bold()
-        .frame(
-          minWidth: 0,
-          maxWidth: config.resize == .fill ? .infinity : nil,
-          minHeight: 0,
-          maxHeight: 36
-        )
-        .padding(.horizontal, 16)
-        .overlay(config.style == .outlined ?
-          RoundedRectangle(cornerRadius:5)
-            .strokeBorder(
-              config.backgroundColor,
-              lineWidth: configuration.isPressed ? 2.0 : 1.0) : nil
-        )
-        .background(config.style == .outlined ? .white.opacity(0.0) : config.backgroundColor)
-        .foregroundColor(config.style == .outlined ? config.backgroundColor: config.foregroundColor)
-        .cornerRadius(5)
-        .shadow(
-          color: config.style == .outlined ? .gray.opacity(0.0) : .gray,
-          radius: 5, x: 2, y: 2
-        )
-        .scaleEffect(configuration.isPressed ? 0.96 : 1.0)
-        .opacity(configuration.isPressed ? 0.9 : 1.0)
+    configuration.label
+      .font(.system(size: 14))
+      .textCase(.uppercase)
+      .bold()
+      .frame(
+        minWidth: 0,
+        maxWidth: config.resize == .fill ? .infinity : nil,
+        minHeight: 0,          maxHeight: 36
+      )
+      .padding(.horizontal, 16)
+      .overlay(config.style == .outlined ?
+               RoundedRectangle(cornerRadius:5)
+        .strokeBorder(
+          config.backgroundColor,
+          lineWidth: configuration.isPressed ? 2.0 : 1.0) : nil
+      )
+      .background(config.style == .outlined ? .white.opacity(0.0) : config.backgroundColor)
+      .foregroundColor(config.style == .outlined ? config.backgroundColor: config.foregroundColor)
+      .cornerRadius(5)
+      .shadow(
+        color: config.style == .outlined ? .gray.opacity(0.0) : .gray,
+        radius: 5, x: 2, y: 2
+      )
+      .scaleEffect(configuration.isPressed ? 0.96 : 1.0)
+      .opacity(configuration.isPressed ? 0.9 : 1.0)
 
   }
 }
@@ -74,9 +73,9 @@ public struct TUIButtonStyle: ButtonStyle {
 // MARK: - Preview
 let buttonConfig1 = TUIButtonConfig()
 let buttonConfig2 = TUIButtonConfig(foregroundColor: .red,
-                              backgroundColor: .red,
-                              style: .outlined,
-                              resize: .fill)
+                                    backgroundColor: .red,
+                                    style: .outlined,
+                                    resize: .fill)
 
 #Preview {
   Group {
@@ -85,13 +84,13 @@ let buttonConfig2 = TUIButtonConfig(foregroundColor: .red,
     } label: {
       HStack {
         Image(systemName: "square.and.arrow.up")
-            .frame(width: 17, height: 17, alignment: .center)
-            .foregroundColor(.black)
+          .frame(width: 17, height: 17, alignment: .center)
+          .foregroundColor(.black)
         Text("Share")
-            .bold()
-            .font(.system(size: 17))
-            .textCase(.uppercase)
-            .foregroundColor(.black)
+          .bold()
+          .font(.system(size: 17))
+          .textCase(.uppercase)
+          .foregroundColor(.black)
       }
     }
     .buttonStyle(TUIButtonStyle())
@@ -101,6 +100,8 @@ let buttonConfig2 = TUIButtonConfig(foregroundColor: .red,
       print("My action")
     }
     .buttonStyle(TUIButtonStyle(config: buttonConfig2))
+
+
   }
   .padding()
 }

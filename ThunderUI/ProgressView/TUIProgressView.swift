@@ -7,21 +7,34 @@
 
 import SwiftUI
 
-public typealias SystemImage = String?
-public enum ProgressStatus: Equatable {
-  case loading(SystemImage = nil)
-  case success
-  case fail
+// MARK: - State
+public struct ProgressState: Equatable {
+  public enum Status {
+    case loading, success, fail
+  }
+
+  let title: String?
+  let systemImage: String?
+  let status: Status
+
+  public init(
+    title: String? = nil,
+    systemImage: String? = nil,
+    status: Status
+  ) {
+    self.title = title
+    self.systemImage = systemImage
+    self.status = status
+  }
 }
 
+// MARK: - View
 public struct TUIProgressView: View {
   @Environment(\.colorScheme) var colorScheme
-  @Binding private var isPresented: Bool
-  @Binding private var status: ProgressStatus
+  @Binding private var state: ProgressState?
 
-  public init(isPresented: Binding<Bool>, status: Binding<ProgressStatus>) {
-    self._isPresented = isPresented
-    self._status = status
+  public init(state: Binding<ProgressState?>) {
+    self._state = state
   }
 
   var backgoundColor: Color {
@@ -30,9 +43,9 @@ public struct TUIProgressView: View {
 
   public var body: some View {
     VStack {
-      switch status {
-      case .loading(let systemImage):
-        if let systemImage {
+      switch state?.status {
+      case .loading:
+        if let systemImage = state?.systemImage {
           VStack {
             Image(systemName: systemImage)
               .resizable()
@@ -40,7 +53,7 @@ public struct TUIProgressView: View {
               .foregroundStyle(backgoundColor.opacity(0.5))
 
             HStack(spacing:8) {
-              Text("Loading").foregroundStyle(backgoundColor.opacity(0.5))
+              Text(state?.title ?? "Loading").foregroundStyle(backgoundColor.opacity(0.5))
               ProgressView()
                 .controlSize(.mini)
             }
@@ -50,7 +63,7 @@ public struct TUIProgressView: View {
           .transition(.scale)
         } else {
           ProgressView() {
-            Text("Loading")
+            Text(state?.title ?? "Loading")
           }
           .controlSize(.extraLarge)
           .transition(.scale)
@@ -58,26 +71,29 @@ public struct TUIProgressView: View {
 
       case .success:
         HStack {
-          Image(systemName: "checkmark")
+          Image(systemName: state?.systemImage ?? "checkmark")
             .resizable()
             .frame(width: 25, height: 25)
             .foregroundStyle(.green)
             .bold()
 
-          Text("Success!").foregroundStyle(backgoundColor.opacity(0.5))
+          Text(state?.title ?? "Success!").foregroundStyle(backgoundColor.opacity(0.5))
         }
         .transition(.scale)
 
       case .fail:
         HStack {
-          Image(systemName: "exclamationmark.triangle")
+          Image(systemName: state?.systemImage ?? "exclamationmark.triangle")
             .resizable()
             .frame(width: 25, height: 25)
             .foregroundStyle(.red)
             .bold()
-          Text("Error has occurred").foregroundStyle(backgoundColor.opacity(0.5))
+          Text(state?.title ?? "Error has occurred").foregroundStyle(backgoundColor.opacity(0.5))
         }
         .transition(.scale)
+      case .none:
+        EmptyView()
+          .transition(.scale)
       }
     }
     .padding(EdgeInsets(top: 24, leading: 24, bottom: 24, trailing: 24))
@@ -85,46 +101,48 @@ public struct TUIProgressView: View {
       RoundedRectangle(cornerRadius: 25.0)
         .fill(.ultraThickMaterial)
     )
-    .onChange(of: status, { oldValue, newValue in
-      if newValue == .success ||  newValue == .fail {
-        Task {
-          try await Task.sleep(nanoseconds: 2_000_000_000)
-          isPresented.toggle()
-        }
-      }
-    })
-    .animation(.default, value: status)
+//    .onChange(of: state, { oldValue, newValue in
+//      switch state?.status {
+//      case .success, .fail:
+//        Task {
+//          try await Task.sleep(nanoseconds: 2_000_000_000)
+//          await MainActor.run {
+//            state = nil
+//          }
+//        }
+//      default:
+//        return
+//      }
+//    })
+    .animation(.default, value: state)
   }
 }
 
-public struct TUIProgressPopUp: ViewModifier {
-  @Binding var isPresented: Bool
-  @Binding var status: ProgressStatus
 
-  public func body(content: Content) -> some View {
-    ZStack {
-      content
-      if isPresented {
-        ZStack {
-          Color.gray.opacity(0.5)
-            .clipShape(Rectangle())
-          TUIProgressView(isPresented: $isPresented, status: $status)
+struct PreviewProgressView: View {
+  @State var progressState: ProgressState? = nil
+
+    var body: some View {
+      ZStack {
+        VStack {
+          Button("cambio") {
+            Task {
+              progressState = .init(status: .loading)
+              try await Task.sleep(nanoseconds: 1_000_000_000)
+              progressState = .init(status: .fail)
+            }
+
+          }
+          .buttonStyle(.borderedProminent)
         }
-        .ignoresSafeArea()
-
       }
+      .frame(maxWidth: .infinity, maxHeight: .infinity)
+      .background(.white)
+      .activityIndicator(state: $progressState)
     }
-    .animation(.default, value: isPresented)
-  }
-}
-
-extension View {
-  public func activityIndicator(isPresented: Binding<Bool>, status: Binding<ProgressStatus>) -> some View {
-    self.modifier(TUIProgressPopUp(isPresented: isPresented, status: status))
-  }
 }
 
 #Preview {
-  TUIProgressView(isPresented: .constant(false), status: .constant(.loading()))
+  PreviewProgressView()
 }
 
