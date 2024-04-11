@@ -58,7 +58,7 @@ struct GenericDismissKeyboardView<FocusedValue: Hashable>: View {  // Make it ge
   var body: some View {
     Color.clear
       .contentShape(Rectangle())
-      .gesture(TapGesture().onEnded({ _ in
+      .simultaneousGesture(TapGesture().onEnded({ _ in
         isFocused.wrappedValue = nil
       }), including: .all)
       .edgesIgnoringSafeArea(.all)

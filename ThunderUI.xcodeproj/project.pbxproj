@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B402FDD62B709C9000F85943 /* TUIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402FDD52B709C9000F85943 /* TUIProgressView.swift */; };
+		B41BBEB32BA1632A009D12E7 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41BBEB22BA1632A009D12E7 /* Tab.swift */; };
 		B424B3092B58AD730052C607 /* TUISegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424B3082B58AD730052C607 /* TUISegment.swift */; };
 		B424B30C2B5C59330052C607 /* KeyboardDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424B30B2B5C59330052C607 /* KeyboardDismisser.swift */; };
 		B44921E62B26B199009A210F /* OBTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44921E52B26B199009A210F /* OBTitle.swift */; };
@@ -38,11 +39,14 @@
 		B48123812B22E18A0090B9F3 /* TUIRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48123802B22E18A0090B9F3 /* TUIRegisterView.swift */; };
 		B48123832B22E1EF0090B9F3 /* TextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48123822B22E1EF0090B9F3 /* TextFieldState.swift */; };
 		B48123852B22E6DE0090B9F3 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48123842B22E6DE0090B9F3 /* ButtonDesign.swift */; };
+		B4A382292BBAF3B500A15755 /* TUIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A382282BBAF3B500A15755 /* TUIDevice.swift */; };
+		B4A382612BBC340000A15755 /* Environment+Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A382602BBC340000A15755 /* Environment+Device.swift */; };
 		B4B7E9222B77DB6E00FD9ECB /* TUIProgressPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7E9212B77DB6E00FD9ECB /* TUIProgressPopUp.swift */; };
 		B4B7E9242B77DBCD00FD9ECB /* Progress+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7E9232B77DBCD00FD9ECB /* Progress+Extension.swift */; };
 		B4B7E9272B77DC4E00FD9ECB /* TUISnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7E9262B77DC4E00FD9ECB /* TUISnackBar.swift */; };
 		B4B7E9292B77E31A00FD9ECB /* SnackBarPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7E9282B77E31A00FD9ECB /* SnackBarPopUp.swift */; };
 		B4B7E92B2B77E3B400FD9ECB /* SnackBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7E92A2B77E3B400FD9ECB /* SnackBar+Extension.swift */; };
+		B4DABBD12BC811A5002F3BE3 /* ScaleToFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DABBD02BC811A5002F3BE3 /* ScaleToFit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		B402FDD52B709C9000F85943 /* TUIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIProgressView.swift; sourceTree = "<group>"; };
+		B41BBEB22BA1632A009D12E7 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		B424B3082B58AD730052C607 /* TUISegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUISegment.swift; sourceTree = "<group>"; };
 		B424B30B2B5C59330052C607 /* KeyboardDismisser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismisser.swift; sourceTree = "<group>"; };
 		B44921E52B26B199009A210F /* OBTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBTitle.swift; sourceTree = "<group>"; };
@@ -88,11 +93,14 @@
 		B48123802B22E18A0090B9F3 /* TUIRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIRegisterView.swift; sourceTree = "<group>"; };
 		B48123822B22E1EF0090B9F3 /* TextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldState.swift; sourceTree = "<group>"; };
 		B48123842B22E6DE0090B9F3 /* ButtonDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
+		B4A382282BBAF3B500A15755 /* TUIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIDevice.swift; sourceTree = "<group>"; };
+		B4A382602BBC340000A15755 /* Environment+Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+Device.swift"; sourceTree = "<group>"; };
 		B4B7E9212B77DB6E00FD9ECB /* TUIProgressPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIProgressPopUp.swift; sourceTree = "<group>"; };
 		B4B7E9232B77DBCD00FD9ECB /* Progress+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Progress+Extension.swift"; sourceTree = "<group>"; };
 		B4B7E9262B77DC4E00FD9ECB /* TUISnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUISnackBar.swift; sourceTree = "<group>"; };
 		B4B7E9282B77E31A00FD9ECB /* SnackBarPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarPopUp.swift; sourceTree = "<group>"; };
 		B4B7E92A2B77E3B400FD9ECB /* SnackBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnackBar+Extension.swift"; sourceTree = "<group>"; };
+		B4DABBD02BC811A5002F3BE3 /* ScaleToFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleToFit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,14 @@
 			path = ProgressView;
 			sourceTree = "<group>";
 		};
+		B41BBEB12BA1631E009D12E7 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				B41BBEB22BA1632A009D12E7 /* Tab.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
 		B424B30A2B5C59180052C607 /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				B44F97E52B6EEB290046CBF3 /* Color+Extension.swift */,
+				B4DABBD02BC811A5002F3BE3 /* ScaleToFit.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -194,6 +211,9 @@
 		B48123502B214D780090B9F3 /* ThunderUI */ = {
 			isa = PBXGroup;
 			children = (
+				B4A382622BBC340600A15755 /* EnvironmentKeys */,
+				B4A382272BBAF39100A15755 /* Device */,
+				B41BBEB12BA1631E009D12E7 /* Tab */,
 				B4B7E9252B77DC3000FD9ECB /* SnackBar */,
 				B402FDD42B709C7600F85943 /* ProgressView */,
 				B44F97E42B6EEB0E0046CBF3 /* Utils */,
@@ -273,6 +293,22 @@
 				B475DD102B3F9D9D0076D43A /* ThunderUIField.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		B4A382272BBAF39100A15755 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				B4A382282BBAF3B500A15755 /* TUIDevice.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		B4A382622BBC340600A15755 /* EnvironmentKeys */ = {
+			isa = PBXGroup;
+			children = (
+				B4A382602BBC340000A15755 /* Environment+Device.swift */,
+			);
+			path = EnvironmentKeys;
 			sourceTree = "<group>";
 		};
 		B4B7E9252B77DC3000FD9ECB /* SnackBar */ = {
@@ -395,6 +431,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44921EA2B26B4BD009A210F /* EmailTextField.swift in Sources */,
+				B4DABBD12BC811A5002F3BE3 /* ScaleToFit.swift in Sources */,
+				B41BBEB32BA1632A009D12E7 /* Tab.swift in Sources */,
 				B4B7E9222B77DB6E00FD9ECB /* TUIProgressPopUp.swift in Sources */,
 				B48123812B22E18A0090B9F3 /* TUIRegisterView.swift in Sources */,
 				B48123782B2215B00090B9F3 /* UITextFieldContainer.swift in Sources */,
@@ -411,6 +449,8 @@
 				B424B30C2B5C59330052C607 /* KeyboardDismisser.swift in Sources */,
 				B481236D2B21613D0090B9F3 /* TUILink.swift in Sources */,
 				B48123832B22E1EF0090B9F3 /* TextFieldState.swift in Sources */,
+				B4A382292BBAF3B500A15755 /* TUIDevice.swift in Sources */,
+				B4A382612BBC340000A15755 /* Environment+Device.swift in Sources */,
 				B44921E82B26B1B3009A210F /* OBDescription.swift in Sources */,
 				B44921EE2B26BA0B009A210F /* String+Extension.swift in Sources */,
 				B44921F02B26BB5A009A210F /* ORView.swift in Sources */,
