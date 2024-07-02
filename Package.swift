@@ -18,7 +18,7 @@ let package = Package(
       name: "ThunderUI"),
     .binaryTarget(
       name: "ThunderUIKit",
-      path: "ThunderUIKit.xcframework"
+      path: "artifacts/ThunderUIKit.xcframework"
     ),
     .testTarget(
       name: "ThunderUITests",
