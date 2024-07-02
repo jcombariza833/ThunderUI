@@ -16,12 +16,12 @@ let package = Package(
     // Targets can depend on other targets in this package and products from dependencies.
     .target(
       name: "ThunderUI"),
+    .binaryTarget(
+      name: "ThunderUIKit",
+      path: "ThunderUIKit.xcframework"
+    ),
     .testTarget(
       name: "ThunderUITests",
       dependencies: ["ThunderUI"]),
-    .binaryTarget(
-      name: "ThunderUIKit",
-      path: "./ThunderUIKit.xcframework"
-    ),
   ]
 )
