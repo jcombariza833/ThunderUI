@@ -1,0 +1,6 @@
+framework module ThunderUIKit {
+  umbrella header "ThunderUIKit.h"
+  export *
+
+  module * { export * }
+}

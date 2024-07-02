@@ -1,0 +1,436 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ThunderUIKit
+import Combine
+import Foundation
+import Observation
+import Swift
+import SwiftUI
+@_exported import ThunderUIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct TUISegment<SelectionValue> : SwiftUI.View where SelectionValue : Swift.Hashable {
+  public init(selectedOption: SwiftUI.Binding<SelectionValue>, options: [SelectionValue] = [], config: ThunderUIKit.TUIPickerConfig = .init(), formatter: @escaping (SelectionValue) -> Swift.String, onStatusChange: ((Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit10TUISegmentV4bodyQrvp", 0) __<SelectionValue>
+}
+
+public struct PasswordTextField<T> : SwiftUI.View where T : Swift.Hashable {
+  public init(password: SwiftUI.Binding<Swift.String>, scheme: SwiftUI.ColorScheme = .light, focusedField: SwiftUI.FocusState<ThunderUIKit.ThunderUIField<T>?>.Binding, onStatusChange: ((ThunderUIKit.TextFieldState) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit17PasswordTextFieldV4bodyQrvp", 0) __<T>
+}
+
+public struct UsernameTextField<T> : SwiftUI.View where T : Swift.Hashable {
+  public init(username: SwiftUI.Binding<Swift.String>, scheme: SwiftUI.ColorScheme = .light, focusedField: SwiftUI.FocusState<ThunderUIKit.ThunderUIField<T>?>.Binding, onStatusChange: ((ThunderUIKit.TextFieldState) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit17UsernameTextFieldV4bodyQrvp", 0) __<T>
+}
+
+public class TUIDevice {
+  public var orientation: UIKit.UIDeviceOrientation {
+    get
+  }
+  public var prevOrientation: UIKit.UIDeviceOrientation {
+    get
+  }
+  public var width: CoreFoundation.CGFloat {
+    get
+  }
+  public var height: CoreFoundation.CGFloat {
+    get
+  }
+  public var isTallAspectRatio: Swift.Bool {
+    get
+  }
+  public var shorterThaniPhoneX: Swift.Bool {
+    get
+  }
+  public var device: UIKit.UIUserInterfaceIdiom {
+    get
+  }
+  public init()
+  @objc deinit
+}
+extension ThunderUIKit.TUIDevice : Observation.Observable {
+}
+public struct TUIProgressPopUp : SwiftUI.ViewModifier {
+  @_Concurrency.MainActor(unsafe) public func body(content: ThunderUIKit.TUIProgressPopUp.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit16TUIProgressPopUpV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF", 0) __
+}
+
+public struct ProgressState : Swift.Equatable {
+  public enum Status {
+    case loading, success, fail
+    public static func == (a: ThunderUIKit.ProgressState.Status, b: ThunderUIKit.ProgressState.Status) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public init(title: Swift.String? = nil, systemImage: Swift.String? = nil, status: ThunderUIKit.ProgressState.Status)
+  public static func == (a: ThunderUIKit.ProgressState, b: ThunderUIKit.ProgressState) -> Swift.Bool
+}
+public struct TUIProgressView : SwiftUI.View {
+  public init(state: SwiftUI.Binding<ThunderUIKit.ProgressState?>)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit15TUIProgressViewV4bodyQrvp", 0) __
+}
+
+public struct TUILinkConfig {
+  public init(activeColor: SwiftUI.Color? = nil, inactiveColor: SwiftUI.Color? = nil, size: CoreFoundation.CGFloat? = nil)
+}
+public struct TUILinkStyle : SwiftUI.ButtonStyle {
+  public func makeBody(configuration: ThunderUIKit.TUILinkStyle.Configuration) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit12TUILinkStyleV8makeBody13configurationQr7SwiftUI06ButtonD13ConfigurationV_tF", 0) __
+}
+public struct TUILink : SwiftUI.View {
+  public init(_ text: Swift.String, config: ThunderUIKit.TUILinkConfig = .init(), action: @escaping (() -> ()))
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit7TUILinkV4bodyQrvp", 0) __
+}
+
+extension SwiftUI.View {
+  public func snackBarPopUp(state: SwiftUI.Binding<ThunderUIKit.SnackBarState?>) -> some SwiftUI.View
+  
+}
+public struct EmailTextField<T> : SwiftUI.View where T : Swift.Hashable {
+  public init(email: SwiftUI.Binding<Swift.String>, scheme: SwiftUI.ColorScheme = .light, focusedField: SwiftUI.FocusState<ThunderUIKit.ThunderUIField<T>?>.Binding, onStatusChange: ((ThunderUIKit.TextFieldState) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit14EmailTextFieldV4bodyQrvp", 0) __<T>
+}
+
+extension SwiftUI.View {
+  public func captureSize(in binding: SwiftUI.Binding<CoreFoundation.CGSize>) -> some SwiftUI.View
+  
+}
+public struct TUISnackBarConfig : Swift.Equatable {
+  public init(foregroundColor: SwiftUI.Color = .white, backgroundColor: SwiftUI.Color = .red, resize: ThunderUIKit.ResizeStyle = .fit)
+  public static func == (a: ThunderUIKit.TUISnackBarConfig, b: ThunderUIKit.TUISnackBarConfig) -> Swift.Bool
+}
+public struct SnackBarState : Swift.Equatable {
+  public init(text: Swift.String, config: ThunderUIKit.TUISnackBarConfig, buttonText: Swift.String? = nil, aligment: SwiftUI.Alignment = .center, action: (() -> Swift.Void)? = nil)
+  public static func == (lhs: ThunderUIKit.SnackBarState, rhs: ThunderUIKit.SnackBarState) -> Swift.Bool
+}
+
+public struct SnackBarPopUp : SwiftUI.ViewModifier {
+  @_Concurrency.MainActor(unsafe) public func body(content: ThunderUIKit.SnackBarPopUp.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit13SnackBarPopUpV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF", 0) __
+}
+public enum OBTitleContent {
+  case string(Swift.String)
+  case localizedKey(SwiftUI.LocalizedStringKey)
+}
+public struct OBTitle : SwiftUI.View {
+  public init(title: Swift.String)
+  public init(key: SwiftUI.LocalizedStringKey)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit7OBTitleV4bodyQrvp", 0) __
+}
+
+public enum ThunderUIField<T> : Swift.Hashable where T : Swift.Hashable {
+  case username
+  case email
+  case password
+  case field(T)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ThunderUIKit.ThunderUIField<T>, b: ThunderUIKit.ThunderUIField<T>) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol TabData {
+  var title: Swift.String { get }
+  var image: Swift.String { get }
+}
+public struct TabItemView<Content, Tab> : SwiftUI.View where Content : SwiftUI.View, Tab : Swift.Hashable, Tab : ThunderUIKit.TabData {
+  public init(tab: Tab, @SwiftUI.ViewBuilder content: @escaping () -> Content)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit11TabItemViewV4bodyQrvp", 0) __<Content, Tab>
+}
+public struct TUIColorPicker : SwiftUI.View {
+  public init(placeholder: Swift.String? = nil, selectedOption: SwiftUI.Binding<SwiftUI.Color>, config: ThunderUIKit.TUIPickerConfig = .init(), onStatusChange: ((Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit14TUIColorPickerV4bodyQrvp", 0) __
+}
+
+public enum ResizeStyle {
+  case fit
+  case fill
+  public static func == (a: ThunderUIKit.ResizeStyle, b: ThunderUIKit.ResizeStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TUITextFieldContainer<Left, Content, Right> : SwiftUI.View where Left : SwiftUI.View, Content : SwiftUI.View, Right : SwiftUI.View {
+  public init(text: Swift.String, placeholder: Swift.String? = nil, config: ThunderUIKit.TUITextFieldConfig = .init(), @SwiftUI.ViewBuilder left: @escaping () -> Left, @SwiftUI.ViewBuilder content: @escaping () -> Content, @SwiftUI.ViewBuilder right: @escaping () -> Right)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit21TUITextFieldContainerV4bodyQrvp", 0) __<Left, Content, Right>
+}
+extension ThunderUIKit.TUITextFieldContainer where Right == SwiftUI.EmptyView {
+  public init(text: Swift.String, placeholder: Swift.String? = nil, config: ThunderUIKit.TUITextFieldConfig = .init(), @SwiftUI.ViewBuilder left: @escaping () -> Left, @SwiftUI.ViewBuilder content: @escaping () -> Content)
+}
+extension ThunderUIKit.TUITextFieldContainer where Left == SwiftUI.EmptyView {
+  public init(text: Swift.String, placeholder: Swift.String? = nil, config: ThunderUIKit.TUITextFieldConfig = .init(), @SwiftUI.ViewBuilder content: @escaping () -> Content, @SwiftUI.ViewBuilder right: @escaping () -> Right)
+}
+extension ThunderUIKit.TUITextFieldContainer where Left == SwiftUI.EmptyView, Right == SwiftUI.EmptyView {
+  public init(text: Swift.String, placeholder: Swift.String? = nil, config: ThunderUIKit.TUITextFieldConfig = .init(), @SwiftUI.ViewBuilder content: @escaping () -> Content)
+}
+
+public struct TUIRegisterView : SwiftUI.View {
+  public init(username: SwiftUI.Binding<Swift.String>, email: SwiftUI.Binding<Swift.String>, password: SwiftUI.Binding<Swift.String>, onRegister: @escaping () -> Swift.Void, onAppleRegister: @escaping () -> Swift.Void, onGoogleRegister: @escaping () -> Swift.Void, onLogin: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit15TUIRegisterViewV4bodyQrvp", 0) __
+}
+
+extension Swift.String {
+  public func isValidEmail() -> Swift.Bool
+  public func isValidPassword() -> Swift.Bool
+  public func isValidUsername() -> Swift.Bool
+  public var hasNonWhitespaceCharacters: Swift.Bool {
+    get
+  }
+  public func trim() -> Swift.String
+}
+@propertyWrapper public struct Email : SwiftUI.DynamicProperty {
+  public var wrappedValue: Swift.String {
+    get
+    nonmutating set
+  }
+  public var projectedValue: SwiftUI.Binding<Swift.String> {
+    get
+  }
+  public init(wrappedValue: Swift.String)
+}
+public struct TUILoginView : SwiftUI.View {
+  public init(email: SwiftUI.Binding<Swift.String>, password: SwiftUI.Binding<Swift.String>, onLogin: @escaping () -> Swift.Void, onForgotPassword: @escaping () -> Swift.Void, onAppleLogin: @escaping () -> Swift.Void, onGoogleLogin: @escaping () -> Swift.Void, onRegister: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit12TUILoginViewV4bodyQrvp", 0) __
+}
+
+public struct TUIToggleConfig {
+  public init(foregroundColor: SwiftUI.Color = .black, colorOn: SwiftUI.Color = .blue, iconOn: Swift.String = "checkmark", colorOff: SwiftUI.Color = .gray.opacity(0.8), iconOff: Swift.String = "xmark", resize: ThunderUIKit.ResizeStyle = .fill)
+}
+public struct TUIToggleStyle : SwiftUI.ToggleStyle {
+  public init(config: ThunderUIKit.TUIToggleConfig = .init())
+  public func makeBody(configuration: ThunderUIKit.TUIToggleStyle.Configuration) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit14TUIToggleStyleV8makeBody13configurationQr7SwiftUI06ToggleD13ConfigurationV_tF", 0) __
+}
+
+public enum SliderViewStyle {
+  case normal
+  case large
+  public static func == (a: ThunderUIKit.SliderViewStyle, b: ThunderUIKit.SliderViewStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TUISliderConfig : Swift.Equatable {
+  public init(color: SwiftUI.Color = .blue, trackColor: SwiftUI.Color = .gray.opacity(0.25), style: ThunderUIKit.SliderViewStyle = .normal)
+  public static func == (a: ThunderUIKit.TUISliderConfig, b: ThunderUIKit.TUISliderConfig) -> Swift.Bool
+}
+public struct TUISlider<V, Label, ValueLabel> : SwiftUI.View where V : Swift.BinaryFloatingPoint, Label : SwiftUI.View, ValueLabel : SwiftUI.View, V.Stride : Swift.BinaryFloatingPoint {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit9TUISliderV4bodyQrvp", 0) __<V, Label, ValueLabel>
+}
+extension ThunderUIKit.TUISlider {
+  public init(value: SwiftUI.Binding<V>, in bounds: Swift.ClosedRange<V> = 0...1, config: ThunderUIKit.TUISliderConfig = .init(), @SwiftUI.ViewBuilder label: @escaping () -> Label, @SwiftUI.ViewBuilder minimumValueLabel: @escaping () -> ValueLabel, @SwiftUI.ViewBuilder maximumValueLabel: @escaping () -> ValueLabel, onEditingChanged: @escaping (Swift.Bool) -> Swift.Void = { _ in })
+}
+extension ThunderUIKit.TUISlider where Label == SwiftUI.EmptyView {
+  public init(value: SwiftUI.Binding<V>, in bounds: Swift.ClosedRange<V> = 0...1, config: ThunderUIKit.TUISliderConfig = .init(), @SwiftUI.ViewBuilder minimumValueLabel: @escaping () -> ValueLabel, @SwiftUI.ViewBuilder maximumValueLabel: @escaping () -> ValueLabel, onEditingChanged: @escaping (Swift.Bool) -> Swift.Void = { _ in })
+}
+extension ThunderUIKit.TUISlider where ValueLabel == SwiftUI.EmptyView {
+  public init(value: SwiftUI.Binding<V>, in bounds: Swift.ClosedRange<V> = 0...1, config: ThunderUIKit.TUISliderConfig = .init(), @SwiftUI.ViewBuilder label: @escaping () -> Label, onEditingChanged: @escaping (Swift.Bool) -> Swift.Void = { _ in })
+}
+extension ThunderUIKit.TUISlider where Label == SwiftUI.EmptyView, ValueLabel == SwiftUI.EmptyView {
+  public init(value: SwiftUI.Binding<V>, in bounds: Swift.ClosedRange<V> = 0...1, config: ThunderUIKit.TUISliderConfig = .init(), onEditingChanged: @escaping (Swift.Bool) -> Swift.Void = { _ in })
+}
+
+extension SwiftUI.View {
+  public func capturePosition(in binding: SwiftUI.Binding<CoreFoundation.CGRect>, in coordinateSpace: some CoordinateSpaceProtocol) -> some SwiftUI.View
+  
+}
+extension SwiftUI.View {
+  public func focusDismiss(_ isFocused: SwiftUI.FocusState<Swift.Bool>.Binding) -> some SwiftUI.View
+  
+}
+extension SwiftUI.View {
+  public func multipleFocusDismiss<FocusedValue>(_ isFocused: SwiftUI.FocusState<FocusedValue?>.Binding) -> some SwiftUI.View where FocusedValue : Swift.Hashable
+  
+}
+extension SwiftUI.EnvironmentValues {
+  public var tuDevice: ThunderUIKit.TUIDevice {
+    get
+    set
+  }
+}
+extension SwiftUI.Color {
+  public init(hex: Swift.String)
+  public var hexString: Swift.String {
+    get
+  }
+}
+extension UIKit.UIColor {
+  convenience public init(hex: Swift.String)
+  public var hexString: Swift.String {
+    get
+  }
+}
+extension SwiftUI.View {
+  public func effectScaleToFit(_ originaSize: CoreFoundation.CGSize) -> some SwiftUI.View
+  
+}
+
+extension SwiftUI.View {
+  public func activityIndicator(state: SwiftUI.Binding<ThunderUIKit.ProgressState?>) -> some SwiftUI.View
+  
+}
+public enum TextFieldViewStyle {
+  case standard
+  case filled
+  case outlined
+  public static func == (a: ThunderUIKit.TextFieldViewStyle, b: ThunderUIKit.TextFieldViewStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TUITextFieldConfig : Swift.Equatable {
+  public var color: SwiftUI.Color
+  public var style: ThunderUIKit.TextFieldViewStyle
+  public init(color: SwiftUI.Color = .blue, style: ThunderUIKit.TextFieldViewStyle = .standard)
+  public static func == (a: ThunderUIKit.TUITextFieldConfig, b: ThunderUIKit.TUITextFieldConfig) -> Swift.Bool
+}
+public struct TUITextFieldStyle : SwiftUI.TextFieldStyle {
+  public init(text: Swift.String, placeholder: Swift.String? = nil, config: ThunderUIKit.TUITextFieldConfig = .init())
+  public func _body(configuration: SwiftUI.TextField<ThunderUIKit.TUITextFieldStyle._Label>) -> some SwiftUI.View
+  
+  public typealias _Body = @_opaqueReturnTypeOf("$s12ThunderUIKit17TUITextFieldStyleV5_body13configurationQr7SwiftUI04TextD0VyAF01_jdE5LabelVG_tF", 0) __
+}
+
+public enum ButtonDesign : Swift.RawRepresentable {
+  case black
+  case red
+  case white
+  case redBorder
+  case whiteBorder
+  public var rawValue: ThunderUIKit.TUIButtonConfig {
+    get
+  }
+  public init?(rawValue: ThunderUIKit.TUIButtonConfig)
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias RawValue = ThunderUIKit.TUIButtonConfig
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TextFieldState : Swift.RawRepresentable {
+  case error
+  case success
+  case normalDark
+  case normalLight
+  public var rawValue: ThunderUIKit.TUITextFieldConfig {
+    get
+  }
+  public init?(rawValue: ThunderUIKit.TUITextFieldConfig)
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias RawValue = ThunderUIKit.TUITextFieldConfig
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ButtonViewStyle {
+  case elevated
+  case outlined
+  public static func == (a: ThunderUIKit.ButtonViewStyle, b: ThunderUIKit.ButtonViewStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TUIButtonConfig : Swift.Equatable {
+  public init(foregroundColor: SwiftUI.Color = .white, backgroundColor: SwiftUI.Color = .blue, style: ThunderUIKit.ButtonViewStyle = .elevated, resize: ThunderUIKit.ResizeStyle = .fit)
+  public static func == (a: ThunderUIKit.TUIButtonConfig, b: ThunderUIKit.TUIButtonConfig) -> Swift.Bool
+}
+public struct TUIButtonStyle : SwiftUI.ButtonStyle {
+  public init(config: ThunderUIKit.TUIButtonConfig = .init())
+  public func makeBody(configuration: ThunderUIKit.TUIButtonStyle.Configuration) -> some SwiftUI.View
+  
+  public func makeBodyLight(configuration: ThunderUIKit.TUIButtonStyle.Configuration) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit14TUIButtonStyleV8makeBody13configurationQr7SwiftUI06ButtonD13ConfigurationV_tF", 0) __
+}
+
+public enum PickerStyle {
+  case standard
+  case filled
+  case outlined
+  public static func == (a: ThunderUIKit.PickerStyle, b: ThunderUIKit.PickerStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TUIPickerConfig : Swift.Equatable {
+  public var color: SwiftUI.Color
+  public var style: ThunderUIKit.TextFieldViewStyle
+  public init(color: SwiftUI.Color = .blue, style: ThunderUIKit.TextFieldViewStyle = .standard)
+  public static func == (a: ThunderUIKit.TUIPickerConfig, b: ThunderUIKit.TUIPickerConfig) -> Swift.Bool
+}
+public struct TUIPicker<SelectionValue> : SwiftUI.View where SelectionValue : Swift.Hashable {
+  public init(selectedOption: SwiftUI.Binding<SelectionValue>, options: [SelectionValue] = [], config: ThunderUIKit.TUIPickerConfig = .init(), formatter: @escaping (SelectionValue) -> Swift.String, onStatusChange: ((Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit9TUIPickerV4bodyQrvp", 0) __<SelectionValue>
+}
+
+extension ThunderUIKit.ProgressState.Status : Swift.Equatable {}
+extension ThunderUIKit.ProgressState.Status : Swift.Hashable {}
+extension ThunderUIKit.ResizeStyle : Swift.Equatable {}
+extension ThunderUIKit.ResizeStyle : Swift.Hashable {}
+extension ThunderUIKit.SliderViewStyle : Swift.Equatable {}
+extension ThunderUIKit.SliderViewStyle : Swift.Hashable {}
+extension ThunderUIKit.TextFieldViewStyle : Swift.Equatable {}
+extension ThunderUIKit.TextFieldViewStyle : Swift.Hashable {}
+extension ThunderUIKit.ButtonDesign : Swift.Equatable {}
+extension ThunderUIKit.ButtonDesign : Swift.Hashable {}
+extension ThunderUIKit.TextFieldState : Swift.Equatable {}
+extension ThunderUIKit.TextFieldState : Swift.Hashable {}
+extension ThunderUIKit.ButtonViewStyle : Swift.Equatable {}
+extension ThunderUIKit.ButtonViewStyle : Swift.Hashable {}
+extension ThunderUIKit.PickerStyle : Swift.Equatable {}
+extension ThunderUIKit.PickerStyle : Swift.Hashable {}

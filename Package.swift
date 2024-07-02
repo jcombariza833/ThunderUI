@@ -4,20 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "ThunderUI",
-    products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(
-            name: "ThunderUI",
-            targets: ["ThunderUI"]),
-    ],
-    targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "ThunderUI"),
-        .testTarget(
-            name: "ThunderUITests",
-            dependencies: ["ThunderUI"]),
-    ]
+  name: "ThunderUI",
+  products: [
+    // Products define the executables and libraries a package produces, making them visible to other packages.
+    .library(
+      name: "ThunderUI",
+      targets: ["ThunderUI", "ThunderUIKit"]),
+  ],
+  targets: [
+    // Targets are the basic building blocks of a package, defining a module or a test suite.
+    // Targets can depend on other targets in this package and products from dependencies.
+    .target(
+      name: "ThunderUI"),
+    .testTarget(
+      name: "ThunderUITests",
+      dependencies: ["ThunderUI"]),
+    .binaryTarget(
+      name: "ThunderUIKit",
+      path: "./ThunderUIKit.xcframework"
+    ),
+  ]
 )
