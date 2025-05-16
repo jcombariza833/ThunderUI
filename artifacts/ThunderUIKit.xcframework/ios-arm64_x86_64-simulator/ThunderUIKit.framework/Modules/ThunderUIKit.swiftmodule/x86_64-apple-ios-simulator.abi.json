@@ -1476,6 +1476,43 @@
         "moduleName": "ThunderUIKit"
       },
       {
+        "kind": "TypeDecl",
+        "name": "TUIButton",
+        "printedName": "TUIButton",
+        "declKind": "Protocol",
+        "usr": "s:12ThunderUIKit9TUIButtonP",
+        "mangledName": "$s12ThunderUIKit9TUIButtonP",
+        "moduleName": "ThunderUIKit",
+        "genericSig": "<τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Self : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -2856,6 +2893,176 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "TUISnackBar",
+        "printedName": "TUISnackBar",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(model:onDismissAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TUISnackBar",
+                "printedName": "ThunderUIKit.TUISnackBar",
+                "usr": "s:12ThunderUIKit11TUISnackBarV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SnackbarModel",
+                "printedName": "ThunderUIKit.SnackbarModel",
+                "usr": "s:12ThunderUIKit13SnackbarModelV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ThunderUIKit11TUISnackBarV5model15onDismissActionAcA13SnackbarModelV_yyctcfc",
+            "mangledName": "$s12ThunderUIKit11TUISnackBarV5model15onDismissActionAcA13SnackbarModelV_yyctcfc",
+            "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ThunderUIKit11TUISnackBarV4bodyQrvp",
+            "mangledName": "$s12ThunderUIKit11TUISnackBarV4bodyQrvp",
+            "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ThunderUIKit11TUISnackBarV4bodyQrvg",
+                "mangledName": "$s12ThunderUIKit11TUISnackBarV4bodyQrvg",
+                "moduleName": "ThunderUIKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12ThunderUIKit11TUISnackBarV",
+        "mangledName": "$s12ThunderUIKit11TUISnackBarV",
+        "moduleName": "ThunderUIKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3129,6 +3336,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TUITextField",
+            "printedName": "TUITextField",
+            "usr": "s:12ThunderUIKit12TUITextFieldP",
+            "mangledName": "$s12ThunderUIKit12TUITextFieldP"
           },
           {
             "kind": "Conformance",
@@ -3915,6 +4129,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TUIButton",
+            "printedName": "TUIButton",
+            "usr": "s:12ThunderUIKit9TUIButtonP",
+            "mangledName": "$s12ThunderUIKit9TUIButtonP"
           },
           {
             "kind": "Conformance",
@@ -4725,6 +4946,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TUITextField",
+            "printedName": "TUITextField",
+            "usr": "s:12ThunderUIKit12TUITextFieldP",
+            "mangledName": "$s12ThunderUIKit12TUITextFieldP"
           },
           {
             "kind": "Conformance",
@@ -11293,6 +11521,43 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TUIToggle",
+        "printedName": "TUIToggle",
+        "declKind": "Protocol",
+        "usr": "s:12ThunderUIKit9TUIToggleP",
+        "mangledName": "$s12ThunderUIKit9TUIToggleP",
+        "moduleName": "ThunderUIKit",
+        "genericSig": "<τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Self : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "TUIToggleStyle",
         "printedName": "TUIToggleStyle",
         "children": [
@@ -11787,6 +12052,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TUIToggle",
+            "printedName": "TUIToggle",
+            "usr": "s:12ThunderUIKit9TUIToggleP",
+            "mangledName": "$s12ThunderUIKit9TUIToggleP"
           },
           {
             "kind": "Conformance",
@@ -16395,6 +16667,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "TUITextField",
+            "printedName": "TUITextField",
+            "usr": "s:12ThunderUIKit12TUITextFieldP",
+            "mangledName": "$s12ThunderUIKit12TUITextFieldP"
+          },
+          {
+            "kind": "Conformance",
             "name": "View",
             "printedName": "View",
             "children": [
@@ -16994,6 +17273,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TUITextField",
+            "printedName": "TUITextField",
+            "usr": "s:12ThunderUIKit12TUITextFieldP",
+            "mangledName": "$s12ThunderUIKit12TUITextFieldP"
           },
           {
             "kind": "Conformance",
@@ -18238,6 +18524,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "TUITextField",
+            "printedName": "TUITextField",
+            "usr": "s:12ThunderUIKit12TUITextFieldP",
+            "mangledName": "$s12ThunderUIKit12TUITextFieldP"
+          },
+          {
+            "kind": "Conformance",
             "name": "View",
             "printedName": "View",
             "children": [
@@ -18508,6 +18801,43 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "ThunderUIKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TUITextField",
+        "printedName": "TUITextField",
+        "declKind": "Protocol",
+        "usr": "s:12ThunderUIKit12TUITextFieldP",
+        "mangledName": "$s12ThunderUIKit12TUITextFieldP",
+        "moduleName": "ThunderUIKit",
+        "genericSig": "<τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Self : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -20255,6 +20585,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "TUIButton",
+            "printedName": "TUIButton",
+            "usr": "s:12ThunderUIKit9TUIButtonP",
+            "mangledName": "$s12ThunderUIKit9TUIButtonP"
+          },
+          {
+            "kind": "Conformance",
             "name": "View",
             "printedName": "View",
             "children": [
@@ -21284,6 +21621,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "TUITextField",
+            "printedName": "TUITextField",
+            "usr": "s:12ThunderUIKit12TUITextFieldP",
+            "mangledName": "$s12ThunderUIKit12TUITextFieldP"
+          },
+          {
+            "kind": "Conformance",
             "name": "View",
             "printedName": "View",
             "children": [
@@ -22033,6 +22377,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TUIButton",
+            "printedName": "TUIButton",
+            "usr": "s:12ThunderUIKit9TUIButtonP",
+            "mangledName": "$s12ThunderUIKit9TUIButtonP"
           },
           {
             "kind": "Conformance",
@@ -23089,6 +23440,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE11resizeStyleAD06ResizeH0Ovp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE11resizeStyleAD06ResizeH0Ovp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -23181,6 +23535,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE10iconSchemeAD04IconH0_pvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE10iconSchemeAD04IconH0_pvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -23273,6 +23630,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE15textFieldSchemeAD04TexthI0_pvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE15textFieldSchemeAD04TexthI0_pvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -23365,6 +23725,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE14snackbarSchemeAD08SnackbarH0_pvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE14snackbarSchemeAD08SnackbarH0_pvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -23457,6 +23820,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE6themesAD6ThemesVvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE6themesAD6ThemesVvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -23549,6 +23915,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE8iconSizeAD04IconH0Ovp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE8iconSizeAD04IconH0Ovp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -23641,6 +24010,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE10textSchemeAD04TextH0_pvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE10textSchemeAD04TextH0_pvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -23733,6 +24105,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE8tuDeviceAD9TUIDeviceCvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE8tuDeviceAD9TUIDeviceCvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -23825,6 +24200,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE12toggleSchemeAD06ToggleH0_pvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE12toggleSchemeAD06ToggleH0_pvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -23928,6 +24306,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE14presentDismissyycvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE14presentDismissyycvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -24054,6 +24435,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE8leftIconAA7AnyViewVycvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE8leftIconAA7AnyViewVycvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -24182,6 +24566,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE9rightIconAA7AnyViewVycvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE9rightIconAA7AnyViewVycvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -24298,6 +24685,9 @@
             "usr": "s:7SwiftUI17EnvironmentValuesV12ThunderUIKitE12buttonSchemeAD06ButtonH0_pvp",
             "mangledName": "$s7SwiftUI17EnvironmentValuesV12ThunderUIKitE12buttonSchemeAD06ButtonH0_pvp",
             "moduleName": "ThunderUIKit",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -24430,6 +24820,45 @@
         "name": "View",
         "printedName": "View",
         "children": [
+          {
+            "kind": "Function",
+            "name": "resize",
+            "printedName": "resize(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ResizeStyle",
+                "printedName": "ThunderUIKit.ResizeStyle",
+                "usr": "s:12ThunderUIKit11ResizeStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE6resizeyQrAD11ResizeStyleOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE6resizeyQrAD11ResizeStyleOF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "activityIndicator",
@@ -24641,6 +25070,201 @@
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "iconScheme",
+            "printedName": "iconScheme(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IconSchemeType",
+                "printedName": "ThunderUIKit.IconSchemeType",
+                "usr": "s:12ThunderUIKit14IconSchemeTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD7TUIIconVRszrlE10iconSchemeyQrAD04IconH4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD7TUIIconVRszrlE10iconSchemeyQrAD04IconH4TypeOF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 == ThunderUIKit.TUIIcon>",
+            "sugared_genericSig": "<Self where Self == ThunderUIKit.TUIIcon>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textFieldScheme",
+            "printedName": "textFieldScheme(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TextFieldSchemeType",
+                "printedName": "ThunderUIKit.TextFieldSchemeType",
+                "usr": "s:12ThunderUIKit19TextFieldSchemeTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD12TUITextFieldRzrlE04textG6SchemeyQrAD04TextgI4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD12TUITextFieldRzrlE04textG6SchemeyQrAD04TextgI4TypeOF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ThunderUIKit.TUITextField>",
+            "sugared_genericSig": "<Self where Self : ThunderUIKit.TUITextField>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "snackbarScheme",
+            "printedName": "snackbarScheme(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SnackbarSchemeType",
+                "printedName": "ThunderUIKit.SnackbarSchemeType",
+                "usr": "s:12ThunderUIKit18SnackbarSchemeTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD11TUISnackBarVRszrlE14snackbarSchemeyQrAD08SnackbarI4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD11TUISnackBarVRszrlE14snackbarSchemeyQrAD08SnackbarI4TypeOF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 == ThunderUIKit.TUISnackBar>",
+            "sugared_genericSig": "<Self where Self == ThunderUIKit.TUISnackBar>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "iconSize",
+            "printedName": "iconSize(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IconSize",
+                "printedName": "ThunderUIKit.IconSize",
+                "usr": "s:12ThunderUIKit8IconSizeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE8iconSizeyQrAD04IconG0OF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE8iconSizeyQrAD04IconG0OF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textScheme",
+            "printedName": "textScheme(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TextSchemeType",
+                "printedName": "ThunderUIKit.TextSchemeType",
+                "usr": "s:12ThunderUIKit14TextSchemeTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD7TUITextVRszrlE10textSchemeyQrAD04TextH4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD7TUITextVRszrlE10textSchemeyQrAD04TextH4TypeOF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 == ThunderUIKit.TUIText>",
+            "sugared_genericSig": "<Self where Self == ThunderUIKit.TUIText>",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -24885,6 +25509,145 @@
           },
           {
             "kind": "Function",
+            "name": "toggleScheme",
+            "printedName": "toggleScheme(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToggleSchemeType",
+                "printedName": "ThunderUIKit.ToggleSchemeType",
+                "usr": "s:12ThunderUIKit16ToggleSchemeTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD9TUIToggleRzrlE12toggleSchemeyQrAD06ToggleH4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD9TUIToggleRzrlE12toggleSchemeyQrAD06ToggleH4TypeOF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ThunderUIKit.TUIToggle>",
+            "sugared_genericSig": "<Self where Self : ThunderUIKit.TUIToggle>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "leftIcon",
+            "printedName": "leftIcon(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE8leftIcon7contentQrqd__yc_tAaBRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE8leftIcon7contentQrqd__yc_tAaBRd__lF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self, Content where Self : SwiftUI.View, Content : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rightIcon",
+            "printedName": "rightIcon(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE9rightIcon7contentQrqd__yc_tAaBRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE9rightIcon7contentQrqd__yc_tAaBRd__lF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self, Content where Self : SwiftUI.View, Content : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "present",
             "printedName": "present(isPresented:transition:onDismiss:content:)",
             "children": [
@@ -24975,6 +25738,45 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buttonScheme",
+            "printedName": "buttonScheme(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonSchemeType",
+                "printedName": "ThunderUIKit.ButtonSchemeType",
+                "usr": "s:12ThunderUIKit16ButtonSchemeTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD9TUIButtonRzrlE12buttonSchemeyQrAD06ButtonH4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD9TUIButtonRzrlE12buttonSchemeyQrAD06ButtonH4TypeOF",
+            "moduleName": "ThunderUIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ThunderUIKit.TUIButton>",
+            "sugared_genericSig": "<Self where Self : ThunderUIKit.TUIButton>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -27245,21 +28047,21 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/SnackBar\/TUISnackBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 1226,
+      "offset": 1247,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/SnackBar\/TUISnackBar.swift",
       "kind": "StringLiteral",
-      "offset": 2541,
+      "offset": 2562,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/SnackBar\/TUISnackBar.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 2650,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -27399,35 +28201,35 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Toggle\/TUIToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 536,
+      "offset": 543,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Toggle\/TUIToggle.swift",
       "kind": "StringLiteral",
-      "offset": 2694,
+      "offset": 2701,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Toggle\/TUIToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2804,
+      "offset": 2811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Toggle\/TUIToggle.swift",
       "kind": "StringLiteral",
-      "offset": 3278,
+      "offset": 3285,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Toggle\/TUIToggle.swift",
       "kind": "StringLiteral",
-      "offset": 3364,
+      "offset": 3371,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -28064,35 +28866,35 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 335,
+      "offset": 342,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 394,
+      "offset": 401,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 412,
+      "offset": 419,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 431,
+      "offset": 438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 447,
+      "offset": 454,
       "length": 1,
       "value": "5"
     },
