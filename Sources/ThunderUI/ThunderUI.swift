@@ -7,3 +7,5 @@
 
 import Foundation
 @_exported import ThunderUIKit
+
+public typealias TUIOutlinedButton = ThunderUIKit.TUIOutlinedButton
