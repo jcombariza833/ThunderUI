@@ -127,44 +127,13 @@ extension SwiftUICore.View {
 }
 public protocol TUIButton : SwiftUICore.View {
 }
-@_Concurrency.MainActor @preconcurrency public struct ProgressModifier : SwiftUICore.ViewModifier {
-  @_Concurrency.MainActor @preconcurrency public init(model: SwiftUICore.Binding<ThunderUIKit.ProgressModel?>, onDismiss: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public func body(content: ThunderUIKit.ProgressModifier.Content) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit16ProgressModifierV4body7contentQr7SwiftUI05_ViewD8_ContentVyACG_tF", 0) __
-}
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func activityIndicator(model: SwiftUICore.Binding<ThunderUIKit.ProgressModel?>) -> some SwiftUICore.View
   
 }
 
-public struct ProgressModel : Swift.Equatable {
-  public enum Status {
-    case loading, success, fail
-    public static func == (a: ThunderUIKit.ProgressModel.Status, b: ThunderUIKit.ProgressModel.Status) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  public init(title: Swift.String? = nil, systemImage: Swift.String? = nil, status: ThunderUIKit.ProgressModel.Status)
-  public static func == (a: ThunderUIKit.ProgressModel, b: ThunderUIKit.ProgressModel) -> Swift.Bool
-}
-@_Concurrency.MainActor @preconcurrency public struct TUIProgressView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(model: SwiftUICore.Binding<ThunderUIKit.ProgressModel?>)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit15TUIProgressViewV4bodyQrvp", 0) __
-}
 
 
-@_Concurrency.MainActor @preconcurrency public struct AlertModifier : SwiftUICore.ViewModifier {
-  @_Concurrency.MainActor @preconcurrency public init(alertDetails: SwiftUICore.Binding<ThunderUIKit.AlertDetailsModel?>)
-  @_Concurrency.MainActor @preconcurrency public func body(content: ThunderUIKit.AlertModifier.Content) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit13AlertModifierV4body7contentQr7SwiftUI05_ViewD8_ContentVyACG_tF", 0) __
-}
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func alert(details: SwiftUICore.Binding<ThunderUIKit.AlertDetailsModel?>) -> some SwiftUICore.View
   
@@ -195,29 +164,17 @@ public struct TUIPrimarySnackbarScheme : ThunderUIKit.SnackbarScheme {
   }
   public init(themes: ThunderUIKit.Themes, colorScheme: SwiftUICore.ColorScheme)
 }
-@_Concurrency.MainActor @preconcurrency public struct TUISnackBar : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(model: ThunderUIKit.SnackbarModel, onDismissAction: @escaping () -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit11TUISnackBarV4bodyQrvp", 0) __
-}
 
 
-@_Concurrency.MainActor @preconcurrency public struct SnackbarViewModifier : SwiftUICore.ViewModifier {
-  @_Concurrency.MainActor @preconcurrency public func body(content: ThunderUIKit.SnackbarViewModifier.Content) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit20SnackbarViewModifierV4body7contentQr7SwiftUI01_dE8_ContentVyACG_tF", 0) __
-}
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func snackbar(model: SwiftUICore.Binding<ThunderUIKit.SnackbarModel?>, snackbarScheme: ThunderUIKit.SnackbarSchemeType = .default) -> some SwiftUICore.View
   
 }
 @_Concurrency.MainActor @preconcurrency public struct TUIFilledTextField : ThunderUIKit.TUITextField {
+  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit18TUIFilledTextFieldV4bodyQrvp", 0) __
 }
 
@@ -243,12 +200,6 @@ public enum OBTitleContent {
   public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit7OBTitleV4bodyQrvp", 0) __
 }
 
-@_Concurrency.MainActor @preconcurrency public struct TUILinkButtonStyle : SwiftUI.ButtonStyle {
-  @_Concurrency.MainActor @preconcurrency public init(buttonScheme: any ThunderUIKit.ButtonScheme, disabled: Swift.Bool = false)
-  @_Concurrency.MainActor @preconcurrency public func makeBody(configuration: ThunderUIKit.TUILinkButtonStyle.Configuration) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit18TUILinkButtonStyleV8makeBody13configurationQr7SwiftUI0dE13ConfigurationV_tF", 0) __
-}
 @_Concurrency.MainActor @preconcurrency public struct TUILinkButton : ThunderUIKit.TUIButton {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
@@ -275,22 +226,11 @@ extension SwiftUICore.View where Self == ThunderUIKit.TUIIcon {
   @_Concurrency.MainActor @preconcurrency public func iconScheme(_ value: ThunderUIKit.IconSchemeType) -> some SwiftUICore.View
   
 }
-public enum ThunderUIField<T> : Swift.Hashable where T : Swift.Hashable {
-  case username
-  case email
-  case password
-  case field(T)
-  public static func == (a: ThunderUIKit.ThunderUIField<T>, b: ThunderUIKit.ThunderUIField<T>) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 @_Concurrency.MainActor @preconcurrency public struct TUIStandardTextField : ThunderUIKit.TUITextField {
+  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit20TUIStandardTextFieldV4bodyQrvp", 0) __
 }
 
@@ -568,16 +508,6 @@ extension Swift.String {
   }
   public func trim() -> Swift.String
 }
-@propertyWrapper public struct Email : SwiftUICore.DynamicProperty {
-  public var wrappedValue: Swift.String {
-    get
-    nonmutating set
-  }
-  public var projectedValue: SwiftUICore.Binding<Swift.String> {
-    get
-  }
-  public init(wrappedValue: Swift.String)
-}
 extension SwiftUICore.EnvironmentValues {
   public var snackbarScheme: any ThunderUIKit.SnackbarScheme {
     get
@@ -590,10 +520,6 @@ public enum SnackbarSchemeType {
   case secondary
   case error
   case custom(any ThunderUIKit.SnackbarScheme)
-}
-extension SwiftUICore.View where Self == ThunderUIKit.TUISnackBar {
-  @_Concurrency.MainActor @preconcurrency public func snackbarScheme(_ value: ThunderUIKit.SnackbarSchemeType) -> some SwiftUICore.View
-  
 }
 extension SwiftUICore.EnvironmentValues {
   public var themes: ThunderUIKit.Themes {
@@ -629,12 +555,6 @@ public struct TUIErrorToggleScheme : ThunderUIKit.ToggleScheme {
 }
 public protocol TUIToggle : SwiftUICore.View {
 }
-@_Concurrency.MainActor @preconcurrency public struct TUIToggleStyle : SwiftUI.ToggleStyle {
-  @_Concurrency.MainActor @preconcurrency public init(title: Swift.String, toggleScheme: any ThunderUIKit.ToggleScheme, resize: ThunderUIKit.ResizeStyle = .fill, disabled: Swift.Bool = false)
-  @_Concurrency.MainActor @preconcurrency public func makeBody(configuration: ThunderUIKit.TUIToggleStyle.Configuration) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit14TUIToggleStyleV8makeBody13configurationQr7SwiftUI06ToggleD13ConfigurationV_tF", 0) __
-}
 @_Concurrency.MainActor @preconcurrency public struct TUIToggleView : ThunderUIKit.TUIToggle {
   @SwiftUICore.Binding @_projectedValueProperty($isOn) @_Concurrency.MainActor @preconcurrency public var isOn: Swift.Bool {
     get
@@ -647,10 +567,10 @@ public protocol TUIToggle : SwiftUICore.View {
     get
   }
   @_Concurrency.MainActor @preconcurrency public let title: Swift.String
+  @_Concurrency.MainActor @preconcurrency public init(isOn: SwiftUICore.Binding<Swift.Bool>, title: Swift.String = "")
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(isOn: SwiftUICore.Binding<Swift.Bool>, title: Swift.String = "")
   public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit13TUIToggleViewV4bodyQrvp", 0) __
 }
 
@@ -720,18 +640,10 @@ extension SwiftUICore.EnvironmentValues {
 }
 public enum TextSchemeType {
   case `default`
-  case h1
-  case h2
-  case h3
-  case h4
-  case h5
-  case h6
-  case subtitle1
-  case subtitle2
-  case body1
-  case body2
-  case caption
-  case overline
+  case h1, h2, h3, h4, h5, h6
+  case subtitle1, subtitle2
+  case body1, body2
+  case caption, overline
   case custom(any ThunderUIKit.TextScheme)
 }
 extension SwiftUICore.View where Self == ThunderUIKit.TUIText {
@@ -759,6 +671,20 @@ extension SwiftUICore.View {
 }
 
 
+public struct ProgressModel : Swift.Equatable {
+  public enum Status {
+    case loading
+    case success
+    case fail
+    public static func == (a: ThunderUIKit.ProgressModel.Status, b: ThunderUIKit.ProgressModel.Status) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public init(title: Swift.String? = nil, systemImage: Swift.String? = nil, status: ThunderUIKit.ProgressModel.Status)
+  public static func == (a: ThunderUIKit.ProgressModel, b: ThunderUIKit.ProgressModel) -> Swift.Bool
+}
 public protocol ColorShades {
   var s50: SwiftUICore.Color { get }
   var s100: SwiftUICore.Color { get }
@@ -809,17 +735,11 @@ public enum IconSize : CoreFoundation.CGFloat {
     get
   }
 }
-@_Concurrency.MainActor @preconcurrency public struct TUIIconButtonStyle : SwiftUI.ButtonStyle {
-  @_Concurrency.MainActor @preconcurrency public init(iconScheme: any ThunderUIKit.IconScheme, disabled: Swift.Bool = false)
-  @_Concurrency.MainActor @preconcurrency public func makeBody(configuration: ThunderUIKit.TUIIconButtonStyle.Configuration) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit18TUIIconButtonStyleV8makeBody13configurationQr7SwiftUI0dE13ConfigurationV_tF", 0) __
-}
 @_Concurrency.MainActor @preconcurrency public struct TUIIcon : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(systemName: Swift.String, action: (() -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @_Concurrency.MainActor @preconcurrency public init(systemName: Swift.String, action: (() -> Swift.Void)? = nil)
   public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit7TUIIconV4bodyQrvp", 0) __
 }
 
@@ -831,10 +751,10 @@ extension SwiftUICore.View {
 
 
 @_Concurrency.MainActor @preconcurrency public struct TUIFilledSecureField : ThunderUIKit.TUITextField {
+  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit20TUIFilledSecureFieldV4bodyQrvp", 0) __
 }
 
@@ -873,10 +793,10 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct TUIOutlinedTextField : ThunderUIKit.TUITextField {
+  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit20TUIOutlinedTextFieldV4bodyQrvp", 0) __
 }
 
@@ -941,7 +861,7 @@ public protocol PickerOption : Swift.CaseIterable, Swift.Hashable {
   var optionDescription: Swift.String { get }
 }
 extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func effectScaleToFit(_ originaSize: CoreFoundation.CGSize) -> some SwiftUICore.View
+  @_Concurrency.MainActor @preconcurrency public func effectScaleToFit(_ originalSize: CoreFoundation.CGSize) -> some SwiftUICore.View
   
 }
 extension SwiftUICore.EnvironmentValues {
@@ -962,10 +882,10 @@ extension SwiftUICore.View where Self : ThunderUIKit.TUIToggle {
   
 }
 @_Concurrency.MainActor @preconcurrency public struct TUIStandardSecureField : ThunderUIKit.TUITextField {
+  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit22TUIStandardSecureFieldV4bodyQrvp", 0) __
 }
 
@@ -1036,12 +956,6 @@ public struct TUIErrorButtonScheme : ThunderUIKit.ButtonScheme {
   }
   public init(themes: ThunderUIKit.Themes, colorScheme: SwiftUICore.ColorScheme)
 }
-@_Concurrency.MainActor @preconcurrency public struct PresentModifier<PresentContent> : SwiftUICore.ViewModifier where PresentContent : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(isPresented: SwiftUICore.Binding<Swift.Bool>, transition: SwiftUICore.AnyTransition = .opacity, onDismiss: (() -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder content: @escaping () -> PresentContent)
-  @_Concurrency.MainActor @preconcurrency public func body(content: ThunderUIKit.PresentModifier<PresentContent>.Content) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit15PresentModifierV4body7contentQr7SwiftUI05_ViewD8_ContentVyACyxGG_tF", 0) __<PresentContent>
-}
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func present<PresentContent>(isPresented: SwiftUICore.Binding<Swift.Bool>, transition: SwiftUICore.AnyTransition = .opacity, onDismiss: (() -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder content: @escaping () -> PresentContent) -> some SwiftUICore.View where PresentContent : SwiftUICore.View
   
@@ -1095,12 +1009,6 @@ public struct TUIPrimaryIconScheme : ThunderUIKit.IconScheme {
   }
   public init(themes: ThunderUIKit.Themes, colorScheme: SwiftUICore.ColorScheme)
 }
-@_Concurrency.MainActor @preconcurrency public struct TUIOutlinedButtonStyle : SwiftUI.ButtonStyle {
-  @_Concurrency.MainActor @preconcurrency public init(buttonScheme: any ThunderUIKit.ButtonScheme, resize: ThunderUIKit.ResizeStyle = .fill, disabled: Swift.Bool = false)
-  @_Concurrency.MainActor @preconcurrency public func makeBody(configuration: ThunderUIKit.TUIOutlinedButtonStyle.Configuration) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit22TUIOutlinedButtonStyleV8makeBody13configurationQr7SwiftUI0dE13ConfigurationV_tF", 0) __
-}
 @_Concurrency.MainActor @preconcurrency public struct TUIOutlinedButton : ThunderUIKit.TUIButton {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
@@ -1151,10 +1059,10 @@ extension CoreFoundation.CGFloat {
   public static func custom(_ multiplier: Swift.Int) -> CoreFoundation.CGFloat
 }
 @_Concurrency.MainActor @preconcurrency public struct TUIOutlinedSecureField : ThunderUIKit.TUITextField {
+  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(_ placeholder: Swift.String, text: SwiftUICore.Binding<Swift.String>)
   public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit22TUIOutlinedSecureFieldV4bodyQrvp", 0) __
 }
 
@@ -1185,12 +1093,6 @@ public struct TUISecondaryButtonScheme : ThunderUIKit.ButtonScheme {
     get
   }
   public init(themes: ThunderUIKit.Themes, colorScheme: SwiftUICore.ColorScheme)
-}
-@_Concurrency.MainActor @preconcurrency public struct TUIElevatedButtonStyle : SwiftUI.ButtonStyle {
-  @_Concurrency.MainActor @preconcurrency public init(buttonScheme: any ThunderUIKit.ButtonScheme, resize: ThunderUIKit.ResizeStyle = .fill, disabled: Swift.Bool = false)
-  @_Concurrency.MainActor @preconcurrency public func makeBody(configuration: ThunderUIKit.TUIElevatedButtonStyle.Configuration) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s12ThunderUIKit22TUIElevatedButtonStyleV8makeBody13configurationQr7SwiftUI0dE13ConfigurationV_tF", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct TUIElevatedButton : ThunderUIKit.TUIButton {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -1265,40 +1167,29 @@ extension SwiftUICore.View where Self : ThunderUIKit.TUIButton {
   @_Concurrency.MainActor @preconcurrency public func buttonScheme(_ value: ThunderUIKit.ButtonSchemeType) -> some SwiftUICore.View
   
 }
-extension ThunderUIKit.ProgressModifier : Swift.Sendable {}
-extension ThunderUIKit.ProgressModel.Status : Swift.Equatable {}
-extension ThunderUIKit.ProgressModel.Status : Swift.Hashable {}
-extension ThunderUIKit.TUIProgressView : Swift.Sendable {}
-extension ThunderUIKit.AlertModifier : Swift.Sendable {}
-extension ThunderUIKit.TUISnackBar : Swift.Sendable {}
-extension ThunderUIKit.SnackbarViewModifier : Swift.Sendable {}
 extension ThunderUIKit.TUIFilledTextField : Swift.Sendable {}
 extension ThunderUIKit.OBTitle : Swift.Sendable {}
-extension ThunderUIKit.TUILinkButtonStyle : Swift.Sendable {}
 extension ThunderUIKit.TUILinkButton : Swift.Sendable {}
 extension ThunderUIKit.TUIStandardTextField : Swift.Sendable {}
 extension ThunderUIKit.TabItemView : Swift.Sendable {}
 extension ThunderUIKit.ResizeStyle : Swift.Equatable {}
 extension ThunderUIKit.ResizeStyle : Swift.Hashable {}
-extension ThunderUIKit.TUIToggleStyle : Swift.Sendable {}
 extension ThunderUIKit.TUIToggleView : Swift.Sendable {}
 extension ThunderUIKit.SliderViewStyle : Swift.Equatable {}
 extension ThunderUIKit.SliderViewStyle : Swift.Hashable {}
 extension ThunderUIKit.TUISlider : Swift.Sendable {}
 extension ThunderUIKit.TUIText : Swift.Sendable {}
+extension ThunderUIKit.ProgressModel.Status : Swift.Equatable {}
+extension ThunderUIKit.ProgressModel.Status : Swift.Hashable {}
 extension ThunderUIKit.IconSize : Swift.Equatable {}
 extension ThunderUIKit.IconSize : Swift.Hashable {}
 extension ThunderUIKit.IconSize : Swift.RawRepresentable {}
-extension ThunderUIKit.TUIIconButtonStyle : Swift.Sendable {}
 extension ThunderUIKit.TUIIcon : Swift.Sendable {}
 extension ThunderUIKit.TUIFilledSecureField : Swift.Sendable {}
 extension ThunderUIKit.TUIOutlinedTextField : Swift.Sendable {}
 extension ThunderUIKit.TUIStandardSecureField : Swift.Sendable {}
-extension ThunderUIKit.PresentModifier : Swift.Sendable {}
-extension ThunderUIKit.TUIOutlinedButtonStyle : Swift.Sendable {}
 extension ThunderUIKit.TUIOutlinedButton : Swift.Sendable {}
 extension ThunderUIKit.AlertType : Swift.Equatable {}
 extension ThunderUIKit.AlertType : Swift.Hashable {}
 extension ThunderUIKit.TUIOutlinedSecureField : Swift.Sendable {}
-extension ThunderUIKit.TUIElevatedButtonStyle : Swift.Sendable {}
 extension ThunderUIKit.TUIElevatedButton : Swift.Sendable {}
