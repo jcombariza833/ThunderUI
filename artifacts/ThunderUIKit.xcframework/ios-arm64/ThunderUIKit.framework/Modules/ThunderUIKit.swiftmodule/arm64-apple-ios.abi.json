@@ -23006,8 +23006,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "resize",
-            "printedName": "resize(_:)",
+            "name": "_resize",
+            "printedName": "_resize(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23030,8 +23030,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE6resizeyQrAD11ResizeStyleOF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE6resizeyQrAD11ResizeStyleOF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE7_resizeyQrAD11ResizeStyleOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE7_resizeyQrAD11ResizeStyleOF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -23045,8 +23045,8 @@
           },
           {
             "kind": "Function",
-            "name": "activityIndicator",
-            "printedName": "activityIndicator(model:)",
+            "name": "_activityIndicator",
+            "printedName": "_activityIndicator(model:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23085,8 +23085,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE17activityIndicator5modelQrAA7BindingVyAD13ProgressModelVSgG_tF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE17activityIndicator5modelQrAA7BindingVyAD13ProgressModelVSgG_tF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE18_activityIndicator5modelQrAA7BindingVyAD13ProgressModelVSgG_tF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE18_activityIndicator5modelQrAA7BindingVyAD13ProgressModelVSgG_tF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -23100,8 +23100,8 @@
           },
           {
             "kind": "Function",
-            "name": "alert",
-            "printedName": "alert(details:)",
+            "name": "_alert",
+            "printedName": "_alert(details:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23140,8 +23140,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE5alert7detailsQrAA7BindingVyAD17AlertDetailsModelVSgG_tF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE5alert7detailsQrAA7BindingVyAD17AlertDetailsModelVSgG_tF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE6_alert7detailsQrAA7BindingVyAD17AlertDetailsModelVSgG_tF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE6_alert7detailsQrAA7BindingVyAD17AlertDetailsModelVSgG_tF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -23156,8 +23156,8 @@
           },
           {
             "kind": "Function",
-            "name": "captureSize",
-            "printedName": "captureSize(in:)",
+            "name": "_captureSize",
+            "printedName": "_captureSize(in:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23188,8 +23188,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE11captureSize2inQrAA7BindingVySo6CGSizeVG_tF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE11captureSize2inQrAA7BindingVySo6CGSizeVG_tF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE12_captureSize2inQrAA7BindingVySo6CGSizeVG_tF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE12_captureSize2inQrAA7BindingVySo6CGSizeVG_tF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -23204,8 +23204,8 @@
           },
           {
             "kind": "Function",
-            "name": "snackbar",
-            "printedName": "snackbar(model:snackbarScheme:)",
+            "name": "_snackbar",
+            "printedName": "_snackbar(model:snackbarScheme:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23251,8 +23251,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE8snackbar5model0F6SchemeQrAA7BindingVyAD13SnackbarModelVSgG_AD0jH4TypeOtF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE8snackbar5model0F6SchemeQrAA7BindingVyAD13SnackbarModelVSgG_AD0jH4TypeOtF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE9_snackbar5model0F6SchemeQrAA7BindingVyAD13SnackbarModelVSgG_AD0jH4TypeOtF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE9_snackbar5model0F6SchemeQrAA7BindingVyAD13SnackbarModelVSgG_AD0jH4TypeOtF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -23266,8 +23266,8 @@
           },
           {
             "kind": "Function",
-            "name": "iconScheme",
-            "printedName": "iconScheme(_:)",
+            "name": "_iconScheme",
+            "printedName": "_iconScheme(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23290,8 +23290,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD7TUIIconVRszrlE10iconSchemeyQrAD04IconH4TypeOF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD7TUIIconVRszrlE10iconSchemeyQrAD04IconH4TypeOF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD7TUIIconVRszrlE11_iconSchemeyQrAD04IconH4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD7TUIIconVRszrlE11_iconSchemeyQrAD04IconH4TypeOF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 == ThunderUIKit.TUIIcon>",
             "sugared_genericSig": "<Self where Self == ThunderUIKit.TUIIcon>",
@@ -23305,8 +23305,8 @@
           },
           {
             "kind": "Function",
-            "name": "textFieldScheme",
-            "printedName": "textFieldScheme(_:)",
+            "name": "_textFieldScheme",
+            "printedName": "_textFieldScheme(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23329,8 +23329,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD12TUITextFieldRzrlE04textG6SchemeyQrAD04TextgI4TypeOF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD12TUITextFieldRzrlE04textG6SchemeyQrAD04TextgI4TypeOF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD12TUITextFieldRzrlE05_textG6SchemeyQrAD04TextgI4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD12TUITextFieldRzrlE05_textG6SchemeyQrAD04TextgI4TypeOF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ThunderUIKit.TUITextField>",
             "sugared_genericSig": "<Self where Self : ThunderUIKit.TUITextField>",
@@ -23344,8 +23344,8 @@
           },
           {
             "kind": "Function",
-            "name": "iconSize",
-            "printedName": "iconSize(_:)",
+            "name": "_iconSize",
+            "printedName": "_iconSize(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23368,8 +23368,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE8iconSizeyQrAD04IconG0OF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE8iconSizeyQrAD04IconG0OF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE9_iconSizeyQrAD04IconG0OF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE9_iconSizeyQrAD04IconG0OF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -23383,8 +23383,8 @@
           },
           {
             "kind": "Function",
-            "name": "textScheme",
-            "printedName": "textScheme(_:)",
+            "name": "_textScheme",
+            "printedName": "_textScheme(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23407,8 +23407,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD7TUITextVRszrlE10textSchemeyQrAD04TextH4TypeOF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD7TUITextVRszrlE10textSchemeyQrAD04TextH4TypeOF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD7TUITextVRszrlE11_textSchemeyQrAD04TextH4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD7TUITextVRszrlE11_textSchemeyQrAD04TextH4TypeOF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 == ThunderUIKit.TUIText>",
             "sugared_genericSig": "<Self where Self == ThunderUIKit.TUIText>",
@@ -23422,8 +23422,8 @@
           },
           {
             "kind": "Function",
-            "name": "capturePosition",
-            "printedName": "capturePosition(in:in:)",
+            "name": "_capturePosition",
+            "printedName": "_capturePosition(in:in:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23459,8 +23459,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE15capturePosition2inAFQrAA7BindingVySo6CGRectVG_qd__tAA23CoordinateSpaceProtocolRd__lF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE15capturePosition2inAFQrAA7BindingVySo6CGRectVG_qd__tAA23CoordinateSpaceProtocolRd__lF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE16_capturePosition2inAFQrAA7BindingVySo6CGRectVG_qd__tAA23CoordinateSpaceProtocolRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE16_capturePosition2inAFQrAA7BindingVySo6CGRectVG_qd__tAA23CoordinateSpaceProtocolRd__lF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.CoordinateSpaceProtocol>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -23475,8 +23475,8 @@
           },
           {
             "kind": "Function",
-            "name": "focusDismiss",
-            "printedName": "focusDismiss(_:)",
+            "name": "_focusDismiss",
+            "printedName": "_focusDismiss(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23499,8 +23499,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE12focusDismissyQrAA10FocusStateV7BindingVySb_GF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE12focusDismissyQrAA10FocusStateV7BindingVySb_GF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE13_focusDismissyQrAA10FocusStateV7BindingVySb_GF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE13_focusDismissyQrAA10FocusStateV7BindingVySb_GF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -23514,8 +23514,8 @@
           },
           {
             "kind": "Function",
-            "name": "multipleFocusDismiss",
-            "printedName": "multipleFocusDismiss(_:)",
+            "name": "_multipleFocusDismiss",
+            "printedName": "_multipleFocusDismiss(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23538,8 +23538,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE20multipleFocusDismissyQrAA0G5StateV7BindingVyqd__Sg_GSHRd__lF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE20multipleFocusDismissyQrAA0G5StateV7BindingVyqd__Sg_GSHRd__lF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE21_multipleFocusDismissyQrAA0G5StateV7BindingVyqd__Sg_GSHRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE21_multipleFocusDismissyQrAA0G5StateV7BindingVyqd__Sg_GSHRd__lF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : Swift.Hashable>",
             "sugared_genericSig": "<Self, FocusedValue where Self : SwiftUI.View, FocusedValue : Swift.Hashable>",
@@ -23553,8 +23553,8 @@
           },
           {
             "kind": "Function",
-            "name": "optionPicker",
-            "printedName": "optionPicker(isPresented:option:)",
+            "name": "_optionPicker",
+            "printedName": "_optionPicker(isPresented:option:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23606,8 +23606,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE12optionPicker11isPresented0F0QrAA7BindingVySbG_AIyqd__SgGtAD0G6OptionRd__lF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE12optionPicker11isPresented0F0QrAA7BindingVySbG_AIyqd__SgGtAD0G6OptionRd__lF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE13_optionPicker11isPresented0F0QrAA7BindingVySbG_AIyqd__SgGtAD0G6OptionRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE13_optionPicker11isPresented0F0QrAA7BindingVySbG_AIyqd__SgGtAD0G6OptionRd__lF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : ThunderUIKit.PickerOption>",
             "sugared_genericSig": "<Self, Option where Self : SwiftUI.View, Option : ThunderUIKit.PickerOption>",
@@ -23621,8 +23621,8 @@
           },
           {
             "kind": "Function",
-            "name": "effectScaleToFit",
-            "printedName": "effectScaleToFit(_:)",
+            "name": "_effectScaleToFit",
+            "printedName": "_effectScaleToFit(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23645,8 +23645,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE16effectScaleToFityQrSo6CGSizeVF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE16effectScaleToFityQrSo6CGSizeVF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE17_effectScaleToFityQrSo6CGSizeVF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE17_effectScaleToFityQrSo6CGSizeVF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -23660,8 +23660,8 @@
           },
           {
             "kind": "Function",
-            "name": "toggleScheme",
-            "printedName": "toggleScheme(_:)",
+            "name": "_toggleScheme",
+            "printedName": "_toggleScheme(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23684,8 +23684,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD9TUIToggleRzrlE12toggleSchemeyQrAD06ToggleH4TypeOF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD9TUIToggleRzrlE12toggleSchemeyQrAD06ToggleH4TypeOF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD9TUIToggleRzrlE13_toggleSchemeyQrAD06ToggleH4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD9TUIToggleRzrlE13_toggleSchemeyQrAD06ToggleH4TypeOF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ThunderUIKit.TUIToggle>",
             "sugared_genericSig": "<Self where Self : ThunderUIKit.TUIToggle>",
@@ -23699,8 +23699,8 @@
           },
           {
             "kind": "Function",
-            "name": "leftIcon",
-            "printedName": "leftIcon(content:)",
+            "name": "_leftIcon",
+            "printedName": "_leftIcon(content:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23734,8 +23734,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE8leftIcon7contentQrqd__yc_tAaBRd__lF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE8leftIcon7contentQrqd__yc_tAaBRd__lF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE9_leftIcon7contentQrqd__yc_tAaBRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE9_leftIcon7contentQrqd__yc_tAaBRd__lF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self, Content where Self : SwiftUI.View, Content : SwiftUI.View>",
@@ -23749,8 +23749,8 @@
           },
           {
             "kind": "Function",
-            "name": "rightIcon",
-            "printedName": "rightIcon(content:)",
+            "name": "_rightIcon",
+            "printedName": "_rightIcon(content:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23784,8 +23784,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE9rightIcon7contentQrqd__yc_tAaBRd__lF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE9rightIcon7contentQrqd__yc_tAaBRd__lF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE10_rightIcon7contentQrqd__yc_tAaBRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE10_rightIcon7contentQrqd__yc_tAaBRd__lF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self, Content where Self : SwiftUI.View, Content : SwiftUI.View>",
@@ -23799,8 +23799,8 @@
           },
           {
             "kind": "Function",
-            "name": "present",
-            "printedName": "present(isPresented:transition:onDismiss:content:)",
+            "name": "_present",
+            "printedName": "_present(isPresented:transition:onDismiss:content:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23881,8 +23881,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE7present11isPresented10transition9onDismiss7contentQrAA7BindingVySbG_AA13AnyTransitionVyycSgqd__yctAaBRd__lF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE7present11isPresented10transition9onDismiss7contentQrAA7BindingVySbG_AA13AnyTransitionVyycSgqd__yctAaBRd__lF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitE8_present11isPresented10transition9onDismiss7contentQrAA7BindingVySbG_AA13AnyTransitionVyycSgqd__yctAaBRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitE8_present11isPresented10transition9onDismiss7contentQrAA7BindingVySbG_AA13AnyTransitionVyycSgqd__yctAaBRd__lF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self, PresentContent where Self : SwiftUI.View, PresentContent : SwiftUI.View>",
@@ -23896,8 +23896,8 @@
           },
           {
             "kind": "Function",
-            "name": "buttonScheme",
-            "printedName": "buttonScheme(_:)",
+            "name": "_buttonScheme",
+            "printedName": "_buttonScheme(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23920,8 +23920,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD9TUIButtonRzrlE12buttonSchemeyQrAD06ButtonH4TypeOF",
-            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD9TUIButtonRzrlE12buttonSchemeyQrAD06ButtonH4TypeOF",
+            "usr": "s:7SwiftUI4ViewP12ThunderUIKitAD9TUIButtonRzrlE13_buttonSchemeyQrAD06ButtonH4TypeOF",
+            "mangledName": "$s7SwiftUI4ViewP12ThunderUIKitAD9TUIButtonRzrlE13_buttonSchemeyQrAD06ButtonH4TypeOF",
             "moduleName": "ThunderUIKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ThunderUIKit.TUIButton>",
             "sugared_genericSig": "<Self where Self : ThunderUIKit.TUIButton>",
@@ -23982,8 +23982,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "isValidEmail",
-            "printedName": "isValidEmail()",
+            "name": "_isValidEmail",
+            "printedName": "_isValidEmail()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23993,11 +23993,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:SS12ThunderUIKitE12isValidEmailSbyF",
-            "mangledName": "$sSS12ThunderUIKitE12isValidEmailSbyF",
+            "usr": "s:SS12ThunderUIKitE13_isValidEmailSbyF",
+            "mangledName": "$sSS12ThunderUIKitE13_isValidEmailSbyF",
             "moduleName": "ThunderUIKit",
             "declAttributes": [
-              "AccessControl",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -24005,8 +24004,8 @@
           },
           {
             "kind": "Function",
-            "name": "isValidPassword",
-            "printedName": "isValidPassword()",
+            "name": "_isValidPassword",
+            "printedName": "_isValidPassword()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24016,11 +24015,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:SS12ThunderUIKitE15isValidPasswordSbyF",
-            "mangledName": "$sSS12ThunderUIKitE15isValidPasswordSbyF",
+            "usr": "s:SS12ThunderUIKitE16_isValidPasswordSbyF",
+            "mangledName": "$sSS12ThunderUIKitE16_isValidPasswordSbyF",
             "moduleName": "ThunderUIKit",
             "declAttributes": [
-              "AccessControl",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -24028,8 +24026,8 @@
           },
           {
             "kind": "Function",
-            "name": "isValidUsername",
-            "printedName": "isValidUsername()",
+            "name": "_isValidUsername",
+            "printedName": "_isValidUsername()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24039,11 +24037,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:SS12ThunderUIKitE15isValidUsernameSbyF",
-            "mangledName": "$sSS12ThunderUIKitE15isValidUsernameSbyF",
+            "usr": "s:SS12ThunderUIKitE16_isValidUsernameSbyF",
+            "mangledName": "$sSS12ThunderUIKitE16_isValidUsernameSbyF",
             "moduleName": "ThunderUIKit",
             "declAttributes": [
-              "AccessControl",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -24051,8 +24048,8 @@
           },
           {
             "kind": "Var",
-            "name": "hasNonWhitespaceCharacters",
-            "printedName": "hasNonWhitespaceCharacters",
+            "name": "_hasNonWhitespaceCharacters",
+            "printedName": "_hasNonWhitespaceCharacters",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24062,11 +24059,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:SS12ThunderUIKitE26hasNonWhitespaceCharactersSbvp",
-            "mangledName": "$sSS12ThunderUIKitE26hasNonWhitespaceCharactersSbvp",
+            "usr": "s:SS12ThunderUIKitE27_hasNonWhitespaceCharactersSbvp",
+            "mangledName": "$sSS12ThunderUIKitE27_hasNonWhitespaceCharactersSbvp",
             "moduleName": "ThunderUIKit",
             "declAttributes": [
-              "AccessControl",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -24084,8 +24080,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:SS12ThunderUIKitE26hasNonWhitespaceCharactersSbvg",
-                "mangledName": "$sSS12ThunderUIKitE26hasNonWhitespaceCharactersSbvg",
+                "usr": "s:SS12ThunderUIKitE27_hasNonWhitespaceCharactersSbvg",
+                "mangledName": "$sSS12ThunderUIKitE27_hasNonWhitespaceCharactersSbvg",
                 "moduleName": "ThunderUIKit",
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -24094,8 +24090,8 @@
           },
           {
             "kind": "Function",
-            "name": "trim",
-            "printedName": "trim()",
+            "name": "_trim",
+            "printedName": "_trim()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24105,11 +24101,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:SS12ThunderUIKitE4trimSSyF",
-            "mangledName": "$sSS12ThunderUIKitE4trimSSyF",
+            "usr": "s:SS12ThunderUIKitE5_trimSSyF",
+            "mangledName": "$sSS12ThunderUIKitE5_trimSSyF",
             "moduleName": "ThunderUIKit",
             "declAttributes": [
-              "AccessControl",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -24698,7 +24693,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(hex:)",
+            "printedName": "init(_hex:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24714,8 +24709,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7SwiftUI5ColorV12ThunderUIKitE3hexACSS_tcfc",
-            "mangledName": "$s7SwiftUI5ColorV12ThunderUIKitE3hexACSS_tcfc",
+            "usr": "s:7SwiftUI5ColorV12ThunderUIKitE4_hexACSS_tcfc",
+            "mangledName": "$s7SwiftUI5ColorV12ThunderUIKitE4_hexACSS_tcfc",
             "moduleName": "ThunderUIKit",
             "declAttributes": [
               "RawDocComment"
@@ -24725,8 +24720,8 @@
           },
           {
             "kind": "Var",
-            "name": "hexString",
-            "printedName": "hexString",
+            "name": "_hexString",
+            "printedName": "_hexString",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24736,8 +24731,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7SwiftUI5ColorV12ThunderUIKitE9hexStringSSvp",
-            "mangledName": "$s7SwiftUI5ColorV12ThunderUIKitE9hexStringSSvp",
+            "usr": "s:7SwiftUI5ColorV12ThunderUIKitE10_hexStringSSvp",
+            "mangledName": "$s7SwiftUI5ColorV12ThunderUIKitE10_hexStringSSvp",
             "moduleName": "ThunderUIKit",
             "declAttributes": [
               "RawDocComment"
@@ -24757,8 +24752,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7SwiftUI5ColorV12ThunderUIKitE9hexStringSSvg",
-                "mangledName": "$s7SwiftUI5ColorV12ThunderUIKitE9hexStringSSvg",
+                "usr": "s:7SwiftUI5ColorV12ThunderUIKitE10_hexStringSSvg",
+                "mangledName": "$s7SwiftUI5ColorV12ThunderUIKitE10_hexStringSSvg",
                 "moduleName": "ThunderUIKit",
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -24912,7 +24907,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(hex:)",
+            "printedName": "init(_hex:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24928,8 +24923,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:So7UIColorC12ThunderUIKitE3hexABSS_tcfc",
-            "mangledName": "$sSo7UIColorC12ThunderUIKitE3hexABSS_tcfc",
+            "usr": "s:So7UIColorC12ThunderUIKitE4_hexABSS_tcfc",
+            "mangledName": "$sSo7UIColorC12ThunderUIKitE4_hexABSS_tcfc",
             "moduleName": "ThunderUIKit",
             "declAttributes": [
               "Convenience",
@@ -24940,8 +24935,8 @@
           },
           {
             "kind": "Var",
-            "name": "hexString",
-            "printedName": "hexString",
+            "name": "_hexString",
+            "printedName": "_hexString",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24951,8 +24946,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:So7UIColorC12ThunderUIKitE9hexStringSSvp",
-            "mangledName": "$sSo7UIColorC12ThunderUIKitE9hexStringSSvp",
+            "usr": "s:So7UIColorC12ThunderUIKitE10_hexStringSSvp",
+            "mangledName": "$sSo7UIColorC12ThunderUIKitE10_hexStringSSvp",
             "moduleName": "ThunderUIKit",
             "declAttributes": [
               "RawDocComment"
@@ -24972,8 +24967,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:So7UIColorC12ThunderUIKitE9hexStringSSvg",
-                "mangledName": "$sSo7UIColorC12ThunderUIKitE9hexStringSSvg",
+                "usr": "s:So7UIColorC12ThunderUIKitE10_hexStringSSvg",
+                "mangledName": "$sSo7UIColorC12ThunderUIKitE10_hexStringSSvg",
                 "moduleName": "ThunderUIKit",
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -25088,8 +25083,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "x1",
-            "printedName": "x1",
+            "name": "_x1",
+            "printedName": "_x1",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25099,8 +25094,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x1ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x1ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x1ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x1ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25124,8 +25119,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x1ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x1ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x1ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x1ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25136,8 +25131,8 @@
           },
           {
             "kind": "Var",
-            "name": "x2",
-            "printedName": "x2",
+            "name": "_x2",
+            "printedName": "_x2",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25147,8 +25142,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x2ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x2ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x2ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x2ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25172,8 +25167,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x2ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x2ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x2ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x2ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25184,8 +25179,8 @@
           },
           {
             "kind": "Var",
-            "name": "x3",
-            "printedName": "x3",
+            "name": "_x3",
+            "printedName": "_x3",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25195,8 +25190,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x3ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x3ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x3ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x3ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25220,8 +25215,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x3ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x3ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x3ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x3ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25232,8 +25227,8 @@
           },
           {
             "kind": "Var",
-            "name": "x4",
-            "printedName": "x4",
+            "name": "_x4",
+            "printedName": "_x4",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25243,8 +25238,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x4ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x4ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x4ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x4ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25268,8 +25263,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x4ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x4ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x4ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x4ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25280,8 +25275,8 @@
           },
           {
             "kind": "Var",
-            "name": "x5",
-            "printedName": "x5",
+            "name": "_x5",
+            "printedName": "_x5",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25291,8 +25286,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x5ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x5ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x5ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x5ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25316,8 +25311,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x5ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x5ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x5ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x5ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25328,8 +25323,8 @@
           },
           {
             "kind": "Var",
-            "name": "x6",
-            "printedName": "x6",
+            "name": "_x6",
+            "printedName": "_x6",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25339,8 +25334,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x6ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x6ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x6ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x6ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25364,8 +25359,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x6ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x6ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x6ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x6ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25376,8 +25371,8 @@
           },
           {
             "kind": "Var",
-            "name": "x7",
-            "printedName": "x7",
+            "name": "_x7",
+            "printedName": "_x7",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25387,8 +25382,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x7ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x7ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x7ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x7ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25412,8 +25407,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x7ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x7ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x7ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x7ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25424,8 +25419,8 @@
           },
           {
             "kind": "Var",
-            "name": "x8",
-            "printedName": "x8",
+            "name": "_x8",
+            "printedName": "_x8",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25435,8 +25430,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x8ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x8ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x8ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x8ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25460,8 +25455,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x8ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x8ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x8ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x8ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25472,8 +25467,8 @@
           },
           {
             "kind": "Var",
-            "name": "x9",
-            "printedName": "x9",
+            "name": "_x9",
+            "printedName": "_x9",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25483,8 +25478,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x9ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x9ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x9ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x9ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25508,8 +25503,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE2x9ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE2x9ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3_x9ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3_x9ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25520,8 +25515,8 @@
           },
           {
             "kind": "Var",
-            "name": "x10",
-            "printedName": "x10",
+            "name": "_x10",
+            "printedName": "_x10",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25531,8 +25526,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x10ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x10ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x10ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x10ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25556,8 +25551,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x10ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x10ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x10ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x10ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25568,8 +25563,8 @@
           },
           {
             "kind": "Var",
-            "name": "x11",
-            "printedName": "x11",
+            "name": "_x11",
+            "printedName": "_x11",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25579,8 +25574,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x11ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x11ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x11ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x11ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25604,8 +25599,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x11ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x11ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x11ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x11ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25616,8 +25611,8 @@
           },
           {
             "kind": "Var",
-            "name": "x12",
-            "printedName": "x12",
+            "name": "_x12",
+            "printedName": "_x12",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25627,8 +25622,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x12ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x12ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x12ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x12ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25652,8 +25647,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x12ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x12ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x12ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x12ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25664,8 +25659,8 @@
           },
           {
             "kind": "Var",
-            "name": "x13",
-            "printedName": "x13",
+            "name": "_x13",
+            "printedName": "_x13",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25675,8 +25670,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x13ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x13ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x13ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x13ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25700,8 +25695,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x13ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x13ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x13ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x13ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25712,8 +25707,8 @@
           },
           {
             "kind": "Var",
-            "name": "x14",
-            "printedName": "x14",
+            "name": "_x14",
+            "printedName": "_x14",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25723,8 +25718,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x14ACvpZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x14ACvpZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x14ACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x14ACvpZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -25748,8 +25743,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE3x14ACvgZ",
-                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE3x14ACvgZ",
+                "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE4_x14ACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE4_x14ACvgZ",
                 "moduleName": "ThunderUIKit",
                 "static": true,
                 "implicit": true,
@@ -25760,8 +25755,8 @@
           },
           {
             "kind": "Function",
-            "name": "custom",
-            "printedName": "custom(_:)",
+            "name": "_custom",
+            "printedName": "_custom(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25777,8 +25772,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE6customyACSiFZ",
-            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE6customyACSiFZ",
+            "usr": "s:14CoreFoundation7CGFloatV12ThunderUIKitE7_customyACSiFZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV12ThunderUIKitE7_customyACSiFZ",
             "moduleName": "ThunderUIKit",
             "static": true,
             "declAttributes": [
@@ -26200,35 +26195,35 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/ProgressView\/TUIProgressView.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 3003,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/ProgressView\/TUIProgressView.swift",
       "kind": "StringLiteral",
-      "offset": 3083,
+      "offset": 3095,
       "length": 11,
       "value": "\"Dark Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/SnackBar\/TUISnackBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 1226,
+      "offset": 1231,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/SnackBar\/TUISnackBar.swift",
       "kind": "StringLiteral",
-      "offset": 2541,
+      "offset": 2549,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/SnackBar\/TUISnackBar.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 2637,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26277,14 +26272,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIFilledTextField.swift",
       "kind": "StringLiteral",
-      "offset": 4316,
+      "offset": 4329,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIFilledTextField.swift",
       "kind": "StringLiteral",
-      "offset": 4411,
+      "offset": 4424,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26305,14 +26300,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Button\/TUILinkButton.swift",
       "kind": "StringLiteral",
-      "offset": 3381,
+      "offset": 3389,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Button\/TUILinkButton.swift",
       "kind": "StringLiteral",
-      "offset": 3471,
+      "offset": 3479,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26333,14 +26328,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIStandardTextField.swift",
       "kind": "StringLiteral",
-      "offset": 3873,
+      "offset": 3887,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIStandardTextField.swift",
       "kind": "StringLiteral",
-      "offset": 3970,
+      "offset": 3984,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26368,28 +26363,28 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Toggle\/TUIToggle.swift",
       "kind": "StringLiteral",
-      "offset": 3098,
+      "offset": 3103,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Toggle\/TUIToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3461,
+      "offset": 3466,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Toggle\/TUIToggle.swift",
       "kind": "StringLiteral",
-      "offset": 3935,
+      "offset": 3946,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Toggle\/TUIToggle.swift",
       "kind": "StringLiteral",
-      "offset": 4021,
+      "offset": 4032,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26494,14 +26489,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Text\/TUIText.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1697,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Text\/TUIText.swift",
       "kind": "StringLiteral",
-      "offset": 1769,
+      "offset": 1781,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26536,14 +26531,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Icons\/TUIIcon.swift",
       "kind": "StringLiteral",
-      "offset": 3994,
+      "offset": 4003,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Icons\/TUIIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4078,
+      "offset": 4087,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26557,21 +26552,21 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Picker\/OptionPicker.swift",
       "kind": "BooleanLiteral",
-      "offset": 3075,
+      "offset": 3077,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Picker\/OptionPicker.swift",
       "kind": "StringLiteral",
-      "offset": 3475,
+      "offset": 3478,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Picker\/OptionPicker.swift",
       "kind": "StringLiteral",
-      "offset": 3561,
+      "offset": 3564,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26592,14 +26587,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIFilledSecureField.swift",
       "kind": "StringLiteral",
-      "offset": 4335,
+      "offset": 4349,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIFilledSecureField.swift",
       "kind": "StringLiteral",
-      "offset": 4432,
+      "offset": 4446,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26620,14 +26615,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIOutlinedTextField.swift",
       "kind": "StringLiteral",
-      "offset": 4060,
+      "offset": 4074,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIOutlinedTextField.swift",
       "kind": "StringLiteral",
-      "offset": 4157,
+      "offset": 4171,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -26725,266 +26720,266 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1152,
+      "offset": 1153,
       "length": 9,
       "value": "\"#FAFAFA\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1185,
+      "offset": 1187,
       "length": 9,
       "value": "\"#F5F5F5\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1218,
+      "offset": 1221,
       "length": 9,
       "value": "\"#EEEEEE\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1251,
+      "offset": 1255,
       "length": 9,
       "value": "\"#E0E0E0\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1284,
+      "offset": 1289,
       "length": 9,
       "value": "\"#BDBDBD\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1317,
+      "offset": 1323,
       "length": 9,
       "value": "\"#9E9E9E\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1357,
       "length": 9,
       "value": "\"#757575\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1383,
+      "offset": 1391,
       "length": 9,
       "value": "\"#616161\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1416,
+      "offset": 1425,
       "length": 9,
       "value": "\"#424242\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1449,
+      "offset": 1459,
       "length": 9,
       "value": "\"#212121\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1549,
       "length": 9,
       "value": "\"#EDE7F6\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1571,
+      "offset": 1583,
       "length": 9,
       "value": "\"#D1C4E9\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1604,
+      "offset": 1617,
       "length": 9,
       "value": "\"#B39DDB\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1637,
+      "offset": 1651,
       "length": 9,
       "value": "\"#9575CD\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1670,
+      "offset": 1685,
       "length": 9,
       "value": "\"#7E57C2\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1703,
+      "offset": 1719,
       "length": 9,
       "value": "\"#673AB7\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1736,
+      "offset": 1753,
       "length": 9,
       "value": "\"#5E35B1\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1769,
+      "offset": 1787,
       "length": 9,
       "value": "\"#512DA8\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1821,
       "length": 9,
       "value": "\"#4527A0\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1835,
+      "offset": 1855,
       "length": 9,
       "value": "\"#311B92\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1922,
+      "offset": 1943,
       "length": 9,
       "value": "\"#ECEFF1\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 1977,
       "length": 9,
       "value": "\"#CFD8DC\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 1988,
+      "offset": 2011,
       "length": 9,
       "value": "\"#B0BEC5\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2045,
       "length": 9,
       "value": "\"#90A4AE\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2054,
+      "offset": 2079,
       "length": 9,
       "value": "\"#78909C\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2087,
+      "offset": 2113,
       "length": 9,
       "value": "\"#607D8B\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2120,
+      "offset": 2147,
       "length": 9,
       "value": "\"#546E7A\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2153,
+      "offset": 2181,
       "length": 9,
       "value": "\"#455A64\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2186,
+      "offset": 2215,
       "length": 9,
       "value": "\"#37474F\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2219,
+      "offset": 2249,
       "length": 9,
       "value": "\"#263238\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2267,
+      "offset": 2298,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2310,
+      "offset": 2342,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2351,
+      "offset": 2384,
       "length": 9,
       "value": "\"#B00020\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2395,
+      "offset": 2429,
       "length": 9,
       "value": "\"#F9A925\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2449,
+      "offset": 2484,
       "length": 9,
       "value": "\"#4CAF50\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2491,
+      "offset": 2527,
       "length": 9,
       "value": "\"#2196F3\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2552,
+      "offset": 2589,
       "length": 9,
       "value": "\"#121212\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Defaults.swift",
       "kind": "StringLiteral",
-      "offset": 2623,
+      "offset": 2661,
       "length": 9,
       "value": "\"#CF6679\""
     },
@@ -27005,14 +27000,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIStandardSecureField.swift",
       "kind": "StringLiteral",
-      "offset": 3908,
+      "offset": 3922,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIStandardSecureField.swift",
       "kind": "StringLiteral",
-      "offset": 4007,
+      "offset": 4021,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -27033,35 +27028,35 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 520,
+      "offset": 524,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 579,
+      "offset": 583,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 597,
+      "offset": 601,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 616,
+      "offset": 620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUITextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 632,
+      "offset": 636,
       "length": 1,
       "value": "5"
     },
@@ -27075,7 +27070,7 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Present\/PresentModifier.swift",
       "kind": "BooleanLiteral",
-      "offset": 3147,
+      "offset": 3148,
       "length": 5,
       "value": "false"
     },
@@ -27089,112 +27084,112 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Button\/TUIOutlinedButton.swift",
       "kind": "StringLiteral",
-      "offset": 4620,
+      "offset": 4630,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Button\/TUIOutlinedButton.swift",
       "kind": "StringLiteral",
-      "offset": 4714,
+      "offset": 4724,
       "length": 11,
       "value": "\"Dark Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 305,
+      "offset": 306,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 334,
+      "offset": 336,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 363,
+      "offset": 366,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 393,
+      "offset": 397,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 423,
+      "offset": 428,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 453,
+      "offset": 459,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 483,
+      "offset": 490,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 513,
+      "offset": 521,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 543,
+      "offset": 552,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 574,
+      "offset": 584,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 605,
+      "offset": 616,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 636,
+      "offset": 648,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 667,
+      "offset": 680,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/DesignSystem\/Tokens\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 698,
+      "offset": 712,
       "length": 2,
       "value": "56"
     },
@@ -27215,14 +27210,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIOutlinedSecureField.swift",
       "kind": "StringLiteral",
-      "offset": 4116,
+      "offset": 4130,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/TextField\/TUIOutlinedSecureField.swift",
       "kind": "StringLiteral",
-      "offset": 4215,
+      "offset": 4229,
       "length": 11,
       "value": "\"Dark Mode\""
     },
@@ -27236,14 +27231,14 @@
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Button\/TUIElevatedButton.swift",
       "kind": "StringLiteral",
-      "offset": 4533,
+      "offset": 4544,
       "length": 12,
       "value": "\"Light Mode\""
     },
     {
       "filePath": "\/Users\/juancombariza\/Documents\/Development\/Comba\/ThunderUIKit\/ThunderUIKit\/Button\/TUIElevatedButton.swift",
       "kind": "StringLiteral",
-      "offset": 4627,
+      "offset": 4638,
       "length": 11,
       "value": "\"Dark Mode\""
     }
